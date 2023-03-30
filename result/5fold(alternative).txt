@@ -1,6 +1,0 @@
-model1-AUC mean: 0.9404, variance: 0.0039 
-Fold: 5 model-Test Acc: 0.8591 model-Test Pre: 0.8543 model-Test Recall: 0.8653 model-Test F1: 0.8598 model-Test AUC: 0.9358
-Fold: 4 model-Test Acc: 0.8660 model-Test Pre: 0.9053 model-Test Recall: 0.8203 model-Test F1: 0.8607 model-Test AUC: 0.9468
-Fold: 3 model-Test Acc: 0.8720 model-Test Pre: 0.8730 model-Test Recall: 0.8682 model-Test F1: 0.8706 model-Test AUC: 0.9385
-Fold: 2 model-Test Acc: 0.8665 model-Test Pre: 0.8420 model-Test Recall: 0.9011 model-Test F1: 0.8705 model-Test AUC: 0.9427
-Fold: 1 model-Test Acc: 0.8596 model-Test Pre: 0.8606 model-Test Recall: 0.8598 model-Test F1: 0.8602 model-Test AUC: 0.9383
