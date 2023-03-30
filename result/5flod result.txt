@@ -1,0 +1,1108 @@
+Generating graph ...
+Generating disease features ...
+Generating miRNA features ...
+Generating genes features ...
+Adding edges ...
+Successfully build graph !!
+## edges: 58864
+## disease nodes: tensor(383)
+## mirna nodes: tensor(495)
+##genes nodes: tensor(4395)
+------------------------------------------------------------------------------------------------------
+Training for Fold  1
+## total Training edges: 47048
+## total Testing edges: 11768
+model2-Epoch: 1 model2-Train Loss: 0.1738 model2-Val Loss: 0.1633 model2-Train AUC: 0.8391 model2-Val AUC: 0.8578 TIME:7.31
+model-Epoch: 1 model-Train Loss: 0.1982 model-Val Loss: 0.1904 model-Acc: 0.8029 model-Pre: 0.9159 model-Recall: 0.6691 model-F1: 0.7733 model-Train AUC: 0.9057 model-Val AUC: 0.9067 Time: 7.48
+ ***************************************************************************************************************
+model2-Epoch: 2 model2-Train Loss: 0.1273 model2-Val Loss: 0.1272 model2-Train AUC: 0.9011 model2-Val AUC: 0.9010 TIME:7.29
+model-Epoch: 2 model-Train Loss: 0.1291 model-Val Loss: 0.1258 model-Acc: 0.8237 model-Pre: 0.9078 model-Recall: 0.7223 model-F1: 0.8045 model-Train AUC: 0.9080 model-Val AUC: 0.9099 Time: 7.46
+ ***************************************************************************************************************
+model2-Epoch: 3 model2-Train Loss: 0.1204 model2-Val Loss: 0.1199 model2-Train AUC: 0.9143 model2-Val AUC: 0.9124 TIME:7.65
+model-Epoch: 3 model-Train Loss: 0.1212 model-Val Loss: 0.1241 model-Acc: 0.8297 model-Pre: 0.8193 model-Recall: 0.8478 model-F1: 0.8333 model-Train AUC: 0.9110 model-Val AUC: 0.9125 Time: 7.83
+ ***************************************************************************************************************
+model2-Epoch: 4 model2-Train Loss: 0.1152 model2-Val Loss: 0.1166 model2-Train AUC: 0.9188 model2-Val AUC: 0.9168 TIME:7.62
+model-Epoch: 4 model-Train Loss: 0.1202 model-Val Loss: 0.1196 model-Acc: 0.8338 model-Pre: 0.8702 model-Recall: 0.7864 model-F1: 0.8262 model-Train AUC: 0.9121 model-Val AUC: 0.9127 Time: 7.80
+ ***************************************************************************************************************
+model2-Epoch: 5 model2-Train Loss: 0.1135 model2-Val Loss: 0.1132 model2-Train AUC: 0.9210 model2-Val AUC: 0.9195 TIME:7.64
+model-Epoch: 5 model-Train Loss: 0.1174 model-Val Loss: 0.1179 model-Acc: 0.8379 model-Pre: 0.8813 model-Recall: 0.7828 model-F1: 0.8291 model-Train AUC: 0.9141 model-Val AUC: 0.9140 Time: 7.84
+ ***************************************************************************************************************
+model2-Epoch: 6 model2-Train Loss: 0.1116 model2-Val Loss: 0.1112 model2-Train AUC: 0.9236 model2-Val AUC: 0.9217 TIME:7.88
+model-Epoch: 6 model-Train Loss: 0.1165 model-Val Loss: 0.1171 model-Acc: 0.8333 model-Pre: 0.8549 model-Recall: 0.8048 model-F1: 0.8291 model-Train AUC: 0.9157 model-Val AUC: 0.9152 Time: 8.04
+ ***************************************************************************************************************
+model2-Epoch: 7 model2-Train Loss: 0.1125 model2-Val Loss: 0.1111 model2-Train AUC: 0.9229 model2-Val AUC: 0.9199 TIME:7.83
+model-Epoch: 7 model-Train Loss: 0.1162 model-Val Loss: 0.1168 model-Acc: 0.8338 model-Pre: 0.8503 model-Recall: 0.8121 model-F1: 0.8308 model-Train AUC: 0.9167 model-Val AUC: 0.9158 Time: 8.00
+ ***************************************************************************************************************
+model2-Epoch: 8 model2-Train Loss: 0.1098 model2-Val Loss: 0.1100 model2-Train AUC: 0.9234 model2-Val AUC: 0.9217 TIME:7.31
+model-Epoch: 8 model-Train Loss: 0.1153 model-Val Loss: 0.1169 model-Acc: 0.8347 model-Pre: 0.8427 model-Recall: 0.8249 model-F1: 0.8337 model-Train AUC: 0.9174 model-Val AUC: 0.9163 Time: 7.48
+ ***************************************************************************************************************
+model2-Epoch: 9 model2-Train Loss: 0.1087 model2-Val Loss: 0.1074 model2-Train AUC: 0.9253 model2-Val AUC: 0.9262 TIME:7.43
+model-Epoch: 9 model-Train Loss: 0.1149 model-Val Loss: 0.1158 model-Acc: 0.8366 model-Pre: 0.8615 model-Recall: 0.8038 model-F1: 0.8317 model-Train AUC: 0.9180 model-Val AUC: 0.9167 Time: 7.60
+ ***************************************************************************************************************
+model2-Epoch: 10 model2-Train Loss: 0.1069 model2-Val Loss: 0.1078 model2-Train AUC: 0.9263 model2-Val AUC: 0.9244 TIME:7.31
+model-Epoch: 10 model-Train Loss: 0.1147 model-Val Loss: 0.1162 model-Acc: 0.8375 model-Pre: 0.8868 model-Recall: 0.7754 model-F1: 0.8274 model-Train AUC: 0.9186 model-Val AUC: 0.9172 Time: 7.48
+ ***************************************************************************************************************
+model2-Epoch: 11 model2-Train Loss: 0.1055 model2-Val Loss: 0.1055 model2-Train AUC: 0.9281 model2-Val AUC: 0.9251 TIME:7.35
+model-Epoch: 11 model-Train Loss: 0.1138 model-Val Loss: 0.1150 model-Acc: 0.8375 model-Pre: 0.8632 model-Recall: 0.8038 model-F1: 0.8325 model-Train AUC: 0.9192 model-Val AUC: 0.9180 Time: 7.52
+ ***************************************************************************************************************
+model2-Epoch: 12 model2-Train Loss: 0.1048 model2-Val Loss: 0.1061 model2-Train AUC: 0.9288 model2-Val AUC: 0.9250 TIME:7.41
+model-Epoch: 12 model-Train Loss: 0.1164 model-Val Loss: 0.1152 model-Acc: 0.8398 model-Pre: 0.8834 model-Recall: 0.7846 model-F1: 0.8311 model-Train AUC: 0.9198 model-Val AUC: 0.9184 Time: 7.58
+ ***************************************************************************************************************
+model2-Epoch: 13 model2-Train Loss: 0.1040 model2-Val Loss: 0.1033 model2-Train AUC: 0.9282 model2-Val AUC: 0.9268 TIME:7.37
+model-Epoch: 13 model-Train Loss: 0.1132 model-Val Loss: 0.1154 model-Acc: 0.8329 model-Pre: 0.8377 model-Recall: 0.8277 model-F1: 0.8326 model-Train AUC: 0.9203 model-Val AUC: 0.9192 Time: 7.55
+ ***************************************************************************************************************
+model2-Epoch: 14 model2-Train Loss: 0.1028 model2-Val Loss: 0.1031 model2-Train AUC: 0.9301 model2-Val AUC: 0.9281 TIME:7.60
+model-Epoch: 14 model-Train Loss: 0.1129 model-Val Loss: 0.1147 model-Acc: 0.8407 model-Pre: 0.8868 model-Recall: 0.7828 model-F1: 0.8315 model-Train AUC: 0.9208 model-Val AUC: 0.9197 Time: 7.77
+ ***************************************************************************************************************
+model2-Epoch: 15 model2-Train Loss: 0.1029 model2-Val Loss: 0.1056 model2-Train AUC: 0.9303 model2-Val AUC: 0.9266 TIME:7.40
+model-Epoch: 15 model-Train Loss: 0.1123 model-Val Loss: 0.1136 model-Acc: 0.8352 model-Pre: 0.8625 model-Recall: 0.7993 model-F1: 0.8297 model-Train AUC: 0.9214 model-Val AUC: 0.9201 Time: 7.57
+ ***************************************************************************************************************
+model2-Epoch: 16 model2-Train Loss: 0.1010 model2-Val Loss: 0.1033 model2-Train AUC: 0.9324 model2-Val AUC: 0.9295 TIME:7.57
+model-Epoch: 16 model-Train Loss: 0.1118 model-Val Loss: 0.1136 model-Acc: 0.8389 model-Pre: 0.8792 model-Recall: 0.7874 model-F1: 0.8308 model-Train AUC: 0.9220 model-Val AUC: 0.9206 Time: 7.74
+ ***************************************************************************************************************
+model2-Epoch: 17 model2-Train Loss: 0.1010 model2-Val Loss: 0.1026 model2-Train AUC: 0.9328 model2-Val AUC: 0.9290 TIME:7.42
+model-Epoch: 17 model-Train Loss: 0.1119 model-Val Loss: 0.1140 model-Acc: 0.8389 model-Pre: 0.8912 model-Recall: 0.7736 model-F1: 0.8283 model-Train AUC: 0.9228 model-Val AUC: 0.9212 Time: 7.59
+ ***************************************************************************************************************
+model2-Epoch: 18 model2-Train Loss: 0.1005 model2-Val Loss: 0.0986 model2-Train AUC: 0.9332 model2-Val AUC: 0.9334 TIME:7.47
+model-Epoch: 18 model-Train Loss: 0.1106 model-Val Loss: 0.1126 model-Acc: 0.8389 model-Pre: 0.8459 model-Recall: 0.8304 model-F1: 0.8381 model-Train AUC: 0.9236 model-Val AUC: 0.9221 Time: 7.64
+ ***************************************************************************************************************
+model2-Epoch: 19 model2-Train Loss: 0.1005 model2-Val Loss: 0.0970 model2-Train AUC: 0.9328 model2-Val AUC: 0.9350 TIME:7.37
+model-Epoch: 19 model-Train Loss: 0.1123 model-Val Loss: 0.1144 model-Acc: 0.8366 model-Pre: 0.8957 model-Recall: 0.7635 model-F1: 0.8243 model-Train AUC: 0.9241 model-Val AUC: 0.9228 Time: 7.55
+ ***************************************************************************************************************
+model2-Epoch: 20 model2-Train Loss: 0.0990 model2-Val Loss: 0.0989 model2-Train AUC: 0.9339 model2-Val AUC: 0.9341 TIME:7.37
+model-Epoch: 20 model-Train Loss: 0.1134 model-Val Loss: 0.1151 model-Acc: 0.8370 model-Pre: 0.8207 model-Recall: 0.8643 model-F1: 0.8420 model-Train AUC: 0.9254 model-Val AUC: 0.9235 Time: 7.55
+ ***************************************************************************************************************
+model2-Epoch: 21 model2-Train Loss: 0.0986 model2-Val Loss: 0.0980 model2-Train AUC: 0.9346 model2-Val AUC: 0.9346 TIME:7.51
+model-Epoch: 21 model-Train Loss: 0.1092 model-Val Loss: 0.1116 model-Acc: 0.8444 model-Pre: 0.8432 model-Recall: 0.8478 model-F1: 0.8455 model-Train AUC: 0.9260 model-Val AUC: 0.9243 Time: 7.68
+ ***************************************************************************************************************
+model2-Epoch: 22 model2-Train Loss: 0.0982 model2-Val Loss: 0.0993 model2-Train AUC: 0.9356 model2-Val AUC: 0.9329 TIME:7.31
+model-Epoch: 22 model-Train Loss: 0.1099 model-Val Loss: 0.1124 model-Acc: 0.8370 model-Pre: 0.8941 model-Recall: 0.7663 model-F1: 0.8253 model-Train AUC: 0.9264 model-Val AUC: 0.9250 Time: 7.48
+ ***************************************************************************************************************
+model2-Epoch: 23 model2-Train Loss: 0.0981 model2-Val Loss: 0.0998 model2-Train AUC: 0.9353 model2-Val AUC: 0.9331 TIME:7.66
+model-Epoch: 23 model-Train Loss: 0.1084 model-Val Loss: 0.1112 model-Acc: 0.8425 model-Pre: 0.8353 model-Recall: 0.8552 model-F1: 0.8451 model-Train AUC: 0.9278 model-Val AUC: 0.9258 Time: 7.84
+ ***************************************************************************************************************
+model2-Epoch: 24 model2-Train Loss: 0.0981 model2-Val Loss: 0.0953 model2-Train AUC: 0.9357 model2-Val AUC: 0.9368 TIME:7.37
+model-Epoch: 24 model-Train Loss: 0.1080 model-Val Loss: 0.1097 model-Acc: 0.8462 model-Pre: 0.8495 model-Recall: 0.8433 model-F1: 0.8464 model-Train AUC: 0.9277 model-Val AUC: 0.9263 Time: 7.54
+ ***************************************************************************************************************
+model2-Epoch: 25 model2-Train Loss: 0.0948 model2-Val Loss: 0.0976 model2-Train AUC: 0.9387 model2-Val AUC: 0.9346 TIME:7.98
+model-Epoch: 25 model-Train Loss: 0.1070 model-Val Loss: 0.1092 model-Acc: 0.8421 model-Pre: 0.8785 model-Recall: 0.7956 model-F1: 0.8350 model-Train AUC: 0.9291 model-Val AUC: 0.9272 Time: 8.15
+ ***************************************************************************************************************
+model2-Epoch: 26 model2-Train Loss: 0.0949 model2-Val Loss: 0.0948 model2-Train AUC: 0.9388 model2-Val AUC: 0.9377 TIME:7.47
+model-Epoch: 26 model-Train Loss: 0.1058 model-Val Loss: 0.1091 model-Acc: 0.8412 model-Pre: 0.8853 model-Recall: 0.7855 model-F1: 0.8324 model-Train AUC: 0.9299 model-Val AUC: 0.9279 Time: 7.64
+ ***************************************************************************************************************
+model2-Epoch: 27 model2-Train Loss: 0.0942 model2-Val Loss: 0.0943 model2-Train AUC: 0.9392 model2-Val AUC: 0.9379 TIME:7.31
+model-Epoch: 27 model-Train Loss: 0.1052 model-Val Loss: 0.1084 model-Acc: 0.8439 model-Pre: 0.8860 model-Recall: 0.7910 model-F1: 0.8358 model-Train AUC: 0.9308 model-Val AUC: 0.9286 Time: 7.49
+ ***************************************************************************************************************
+model2-Epoch: 28 model2-Train Loss: 0.0961 model2-Val Loss: 0.0948 model2-Train AUC: 0.9377 model2-Val AUC: 0.9377 TIME:7.31
+model-Epoch: 28 model-Train Loss: 0.1092 model-Val Loss: 0.1076 model-Acc: 0.8448 model-Pre: 0.8733 model-Recall: 0.8084 model-F1: 0.8396 model-Train AUC: 0.9315 model-Val AUC: 0.9291 Time: 7.48
+ ***************************************************************************************************************
+model2-Epoch: 29 model2-Train Loss: 0.0942 model2-Val Loss: 0.0926 model2-Train AUC: 0.9393 model2-Val AUC: 0.9411 TIME:7.32
+model-Epoch: 29 model-Train Loss: 0.1066 model-Val Loss: 0.1068 model-Acc: 0.8517 model-Pre: 0.8624 model-Recall: 0.8387 model-F1: 0.8504 model-Train AUC: 0.9322 model-Val AUC: 0.9298 Time: 7.50
+ ***************************************************************************************************************
+model2-Epoch: 30 model2-Train Loss: 0.0933 model2-Val Loss: 0.0939 model2-Train AUC: 0.9407 model2-Val AUC: 0.9377 TIME:7.48
+model-Epoch: 30 model-Train Loss: 0.1035 model-Val Loss: 0.1063 model-Acc: 0.8541 model-Pre: 0.8617 model-Recall: 0.8451 model-F1: 0.8533 model-Train AUC: 0.9328 model-Val AUC: 0.9303 Time: 7.65
+ ***************************************************************************************************************
+model2-Epoch: 31 model2-Train Loss: 0.0938 model2-Val Loss: 0.0917 model2-Train AUC: 0.9400 model2-Val AUC: 0.9399 TIME:7.33
+model-Epoch: 31 model-Train Loss: 0.1029 model-Val Loss: 0.1059 model-Acc: 0.8499 model-Pre: 0.8506 model-Recall: 0.8506 model-F1: 0.8506 model-Train AUC: 0.9338 model-Val AUC: 0.9310 Time: 7.50
+ ***************************************************************************************************************
+model2-Epoch: 32 model2-Train Loss: 0.0936 model2-Val Loss: 0.0928 model2-Train AUC: 0.9404 model2-Val AUC: 0.9390 TIME:7.40
+model-Epoch: 32 model-Train Loss: 0.1020 model-Val Loss: 0.1062 model-Acc: 0.8471 model-Pre: 0.8397 model-Recall: 0.8598 model-F1: 0.8496 model-Train AUC: 0.9350 model-Val AUC: 0.9319 Time: 7.57
+ ***************************************************************************************************************
+model2-Epoch: 33 model2-Train Loss: 0.0924 model2-Val Loss: 0.0906 model2-Train AUC: 0.9415 model2-Val AUC: 0.9409 TIME:7.51
+model-Epoch: 33 model-Train Loss: 0.1159 model-Val Loss: 0.1073 model-Acc: 0.8448 model-Pre: 0.8863 model-Recall: 0.7929 model-F1: 0.8370 model-Train AUC: 0.9341 model-Val AUC: 0.9314 Time: 7.68
+ ***************************************************************************************************************
+model2-Epoch: 34 model2-Train Loss: 0.0916 model2-Val Loss: 0.0939 model2-Train AUC: 0.9419 model2-Val AUC: 0.9397 TIME:7.34
+model-Epoch: 34 model-Train Loss: 0.1052 model-Val Loss: 0.1069 model-Acc: 0.8458 model-Pre: 0.8369 model-Recall: 0.8607 model-F1: 0.8486 model-Train AUC: 0.9333 model-Val AUC: 0.9320 Time: 7.51
+ ***************************************************************************************************************
+model2-Epoch: 35 model2-Train Loss: 0.0916 model2-Val Loss: 0.0903 model2-Train AUC: 0.9417 model2-Val AUC: 0.9423 TIME:7.48
+model-Epoch: 35 model-Train Loss: 0.1023 model-Val Loss: 0.1059 model-Acc: 0.8504 model-Pre: 0.8916 model-Recall: 0.7993 model-F1: 0.8429 model-Train AUC: 0.9353 model-Val AUC: 0.9325 Time: 7.65
+ ***************************************************************************************************************
+model2-Epoch: 36 model2-Train Loss: 0.0911 model2-Val Loss: 0.0912 model2-Train AUC: 0.9421 model2-Val AUC: 0.9407 TIME:7.38
+model-Epoch: 36 model-Train Loss: 0.1011 model-Val Loss: 0.1047 model-Acc: 0.8559 model-Pre: 0.8882 model-Recall: 0.8158 model-F1: 0.8505 model-Train AUC: 0.9356 model-Val AUC: 0.9329 Time: 7.55
+ ***************************************************************************************************************
+model2-Epoch: 37 model2-Train Loss: 0.0916 model2-Val Loss: 0.0915 model2-Train AUC: 0.9420 model2-Val AUC: 0.9407 TIME:7.39
+model-Epoch: 37 model-Train Loss: 0.1000 model-Val Loss: 0.1038 model-Acc: 0.8559 model-Pre: 0.8851 model-Recall: 0.8194 model-F1: 0.8510 model-Train AUC: 0.9367 model-Val AUC: 0.9337 Time: 7.56
+ ***************************************************************************************************************
+model2-Epoch: 38 model2-Train Loss: 0.0916 model2-Val Loss: 0.0897 model2-Train AUC: 0.9423 model2-Val AUC: 0.9423 TIME:7.55
+model-Epoch: 38 model-Train Loss: 0.0991 model-Val Loss: 0.1026 model-Acc: 0.8536 model-Pre: 0.8629 model-Recall: 0.8423 model-F1: 0.8525 model-Train AUC: 0.9378 model-Val AUC: 0.9347 Time: 7.72
+ ***************************************************************************************************************
+model2-Epoch: 39 model2-Train Loss: 0.0905 model2-Val Loss: 0.0895 model2-Train AUC: 0.9430 model2-Val AUC: 0.9424 TIME:7.43
+model-Epoch: 39 model-Train Loss: 0.0982 model-Val Loss: 0.1019 model-Acc: 0.8531 model-Pre: 0.8642 model-Recall: 0.8396 model-F1: 0.8517 model-Train AUC: 0.9387 model-Val AUC: 0.9354 Time: 7.60
+ ***************************************************************************************************************
+model2-Epoch: 40 model2-Train Loss: 0.0900 model2-Val Loss: 0.0889 model2-Train AUC: 0.9440 model2-Val AUC: 0.9427 TIME:7.35
+model-Epoch: 40 model-Train Loss: 0.1060 model-Val Loss: 0.1022 model-Acc: 0.8554 model-Pre: 0.8805 model-Recall: 0.8240 model-F1: 0.8513 model-Train AUC: 0.9394 model-Val AUC: 0.9358 Time: 7.52
+ ***************************************************************************************************************
+model2-Epoch: 41 model2-Train Loss: 0.0899 model2-Val Loss: 0.0898 model2-Train AUC: 0.9440 model2-Val AUC: 0.9427 TIME:7.38
+model-Epoch: 41 model-Train Loss: 0.1018 model-Val Loss: 0.1034 model-Acc: 0.8522 model-Pre: 0.8365 model-Recall: 0.8772 model-F1: 0.8564 model-Train AUC: 0.9396 model-Val AUC: 0.9361 Time: 7.55
+ ***************************************************************************************************************
+model2-Epoch: 42 model2-Train Loss: 0.0893 model2-Val Loss: 0.0907 model2-Train AUC: 0.9445 model2-Val AUC: 0.9419 TIME:7.37
+model-Epoch: 42 model-Train Loss: 0.0986 model-Val Loss: 0.1013 model-Acc: 0.8531 model-Pre: 0.8581 model-Recall: 0.8478 model-F1: 0.8529 model-Train AUC: 0.9392 model-Val AUC: 0.9362 Time: 7.54
+ ***************************************************************************************************************
+model2-Epoch: 43 model2-Train Loss: 0.0897 model2-Val Loss: 0.0885 model2-Train AUC: 0.9442 model2-Val AUC: 0.9434 TIME:7.66
+model-Epoch: 43 model-Train Loss: 0.0969 model-Val Loss: 0.1021 model-Acc: 0.8582 model-Pre: 0.8991 model-Recall: 0.8084 model-F1: 0.8514 model-Train AUC: 0.9401 model-Val AUC: 0.9368 Time: 7.83
+ ***************************************************************************************************************
+model2-Epoch: 44 model2-Train Loss: 0.0894 model2-Val Loss: 0.0902 model2-Train AUC: 0.9442 model2-Val AUC: 0.9428 TIME:7.70
+model-Epoch: 44 model-Train Loss: 0.0969 model-Val Loss: 0.1009 model-Acc: 0.8600 model-Pre: 0.8923 model-Recall: 0.8203 model-F1: 0.8548 model-Train AUC: 0.9405 model-Val AUC: 0.9373 Time: 7.88
+ ***************************************************************************************************************
+model2-Epoch: 45 model2-Train Loss: 0.0898 model2-Val Loss: 0.0869 model2-Train AUC: 0.9438 model2-Val AUC: 0.9447 TIME:8.43
+model-Epoch: 45 model-Train Loss: 0.1006 model-Val Loss: 0.1069 model-Acc: 0.8499 model-Pre: 0.8128 model-Recall: 0.9111 model-F1: 0.8591 model-Train AUC: 0.9417 model-Val AUC: 0.9376 Time: 8.61
+ ***************************************************************************************************************
+model2-Epoch: 46 model2-Train Loss: 0.0892 model2-Val Loss: 0.0875 model2-Train AUC: 0.9444 model2-Val AUC: 0.9442 TIME:7.95
+model-Epoch: 46 model-Train Loss: 0.0968 model-Val Loss: 0.1021 model-Acc: 0.8550 model-Pre: 0.8328 model-Recall: 0.8900 model-F1: 0.8604 model-Train AUC: 0.9417 model-Val AUC: 0.9381 Time: 8.12
+ ***************************************************************************************************************
+model2-Epoch: 47 model2-Train Loss: 0.0884 model2-Val Loss: 0.0872 model2-Train AUC: 0.9454 model2-Val AUC: 0.9455 TIME:7.34
+model-Epoch: 47 model-Train Loss: 0.0953 model-Val Loss: 0.0991 model-Acc: 0.8577 model-Pre: 0.8641 model-Recall: 0.8506 model-F1: 0.8573 model-Train AUC: 0.9417 model-Val AUC: 0.9383 Time: 7.51
+ ***************************************************************************************************************
+model2-Epoch: 48 model2-Train Loss: 0.0875 model2-Val Loss: 0.0880 model2-Train AUC: 0.9462 model2-Val AUC: 0.9428 TIME:7.27
+model-Epoch: 48 model-Train Loss: 0.0948 model-Val Loss: 0.0993 model-Acc: 0.8582 model-Pre: 0.8820 model-Recall: 0.8286 model-F1: 0.8544 model-Train AUC: 0.9423 model-Val AUC: 0.9386 Time: 7.44
+ ***************************************************************************************************************
+model2-Epoch: 49 model2-Train Loss: 0.0879 model2-Val Loss: 0.0877 model2-Train AUC: 0.9456 model2-Val AUC: 0.9442 TIME:7.48
+model-Epoch: 49 model-Train Loss: 0.1027 model-Val Loss: 0.1049 model-Acc: 0.8499 model-Pre: 0.8190 model-Recall: 0.9001 model-F1: 0.8576 model-Train AUC: 0.9416 model-Val AUC: 0.9378 Time: 7.65
+ ***************************************************************************************************************
+model2-Epoch: 50 model2-Train Loss: 0.0876 model2-Val Loss: 0.0856 model2-Train AUC: 0.9462 model2-Val AUC: 0.9453 TIME:7.42
+model-Epoch: 50 model-Train Loss: 0.1003 model-Val Loss: 0.0992 model-Acc: 0.8577 model-Pre: 0.8818 model-Recall: 0.8277 model-F1: 0.8539 model-Train AUC: 0.9420 model-Val AUC: 0.9387 Time: 7.59
+ ***************************************************************************************************************
+model2-Epoch: 51 model2-Train Loss: 0.0877 model2-Val Loss: 0.0872 model2-Train AUC: 0.9457 model2-Val AUC: 0.9446 TIME:7.40
+model-Epoch: 51 model-Train Loss: 0.0960 model-Val Loss: 0.1004 model-Acc: 0.8596 model-Pre: 0.8978 model-Recall: 0.8130 model-F1: 0.8533 model-Train AUC: 0.9418 model-Val AUC: 0.9388 Time: 7.58
+ ***************************************************************************************************************
+model2-Epoch: 52 model2-Train Loss: 0.0876 model2-Val Loss: 0.0850 model2-Train AUC: 0.9460 model2-Val AUC: 0.9453 TIME:7.87
+model-Epoch: 52 model-Train Loss: 0.0946 model-Val Loss: 0.0986 model-Acc: 0.8605 model-Pre: 0.8788 model-Recall: 0.8378 model-F1: 0.8578 model-Train AUC: 0.9427 model-Val AUC: 0.9391 Time: 8.05
+ ***************************************************************************************************************
+model2-Epoch: 53 model2-Train Loss: 0.0886 model2-Val Loss: 0.0879 model2-Train AUC: 0.9452 model2-Val AUC: 0.9443 TIME:7.53
+model-Epoch: 53 model-Train Loss: 0.0941 model-Val Loss: 0.0983 model-Acc: 0.8614 model-Pre: 0.8726 model-Recall: 0.8478 model-F1: 0.8601 model-Train AUC: 0.9429 model-Val AUC: 0.9392 Time: 7.70
+ ***************************************************************************************************************
+model2-Epoch: 54 model2-Train Loss: 0.0880 model2-Val Loss: 0.0857 model2-Train AUC: 0.9458 model2-Val AUC: 0.9472 TIME:7.40
+model-Epoch: 54 model-Train Loss: 0.0938 model-Val Loss: 0.0980 model-Acc: 0.8623 model-Pre: 0.8750 model-Recall: 0.8469 model-F1: 0.8607 model-Train AUC: 0.9432 model-Val AUC: 0.9395 Time: 7.57
+ ***************************************************************************************************************
+model2-Epoch: 55 model2-Train Loss: 0.0873 model2-Val Loss: 0.0857 model2-Train AUC: 0.9459 model2-Val AUC: 0.9452 TIME:7.75
+model-Epoch: 55 model-Train Loss: 0.0984 model-Val Loss: 0.1060 model-Acc: 0.8522 model-Pre: 0.8110 model-Recall: 0.9203 model-F1: 0.8622 model-Train AUC: 0.9436 model-Val AUC: 0.9396 Time: 7.93
+ ***************************************************************************************************************
+model2-Epoch: 56 model2-Train Loss: 0.0864 model2-Val Loss: 0.0853 model2-Train AUC: 0.9472 model2-Val AUC: 0.9463 TIME:7.54
+model-Epoch: 56 model-Train Loss: 0.0964 model-Val Loss: 0.1010 model-Acc: 0.8610 model-Pre: 0.8346 model-Recall: 0.9019 model-F1: 0.8670 model-Train AUC: 0.9435 model-Val AUC: 0.9397 Time: 7.71
+ ***************************************************************************************************************
+model2-Epoch: 57 model2-Train Loss: 0.0864 model2-Val Loss: 0.0867 model2-Train AUC: 0.9471 model2-Val AUC: 0.9448 TIME:7.54
+model-Epoch: 57 model-Train Loss: 0.0939 model-Val Loss: 0.0977 model-Acc: 0.8614 model-Pre: 0.8726 model-Recall: 0.8478 model-F1: 0.8601 model-Train AUC: 0.9435 model-Val AUC: 0.9398 Time: 7.71
+ ***************************************************************************************************************
+model2-Epoch: 58 model2-Train Loss: 0.0857 model2-Val Loss: 0.0853 model2-Train AUC: 0.9475 model2-Val AUC: 0.9461 TIME:7.51
+model-Epoch: 58 model-Train Loss: 0.0931 model-Val Loss: 0.0978 model-Acc: 0.8600 model-Pre: 0.8780 model-Recall: 0.8378 model-F1: 0.8574 model-Train AUC: 0.9438 model-Val AUC: 0.9400 Time: 7.68
+ ***************************************************************************************************************
+model2-Epoch: 59 model2-Train Loss: 0.0858 model2-Val Loss: 0.0855 model2-Train AUC: 0.9476 model2-Val AUC: 0.9467 TIME:7.66
+model-Epoch: 59 model-Train Loss: 0.0935 model-Val Loss: 0.0980 model-Acc: 0.8596 model-Pre: 0.8509 model-Recall: 0.8735 model-F1: 0.8621 model-Train AUC: 0.9440 model-Val AUC: 0.9401 Time: 7.84
+ ***************************************************************************************************************
+model2-Epoch: 60 model2-Train Loss: 0.0866 model2-Val Loss: 0.0853 model2-Train AUC: 0.9467 model2-Val AUC: 0.9460 TIME:7.61
+model-Epoch: 60 model-Train Loss: 0.0934 model-Val Loss: 0.0983 model-Acc: 0.8605 model-Pre: 0.8474 model-Recall: 0.8808 model-F1: 0.8638 model-Train AUC: 0.9441 model-Val AUC: 0.9402 Time: 7.79
+ ***************************************************************************************************************
+model2-Epoch: 61 model2-Train Loss: 0.0860 model2-Val Loss: 0.0862 model2-Train AUC: 0.9475 model2-Val AUC: 0.9460 TIME:7.64
+model-Epoch: 61 model-Train Loss: 0.0978 model-Val Loss: 0.0979 model-Acc: 0.8591 model-Pre: 0.8763 model-Recall: 0.8378 model-F1: 0.8566 model-Train AUC: 0.9429 model-Val AUC: 0.9401 Time: 7.82
+ ***************************************************************************************************************
+model2-Epoch: 62 model2-Train Loss: 0.0859 model2-Val Loss: 0.0854 model2-Train AUC: 0.9476 model2-Val AUC: 0.9457 TIME:7.70
+model-Epoch: 62 model-Train Loss: 0.0944 model-Val Loss: 0.0985 model-Acc: 0.8614 model-Pre: 0.8477 model-Recall: 0.8827 model-F1: 0.8648 model-Train AUC: 0.9439 model-Val AUC: 0.9401 Time: 7.88
+ ***************************************************************************************************************
+model2-Epoch: 63 model2-Train Loss: 0.0864 model2-Val Loss: 0.0865 model2-Train AUC: 0.9473 model2-Val AUC: 0.9459 TIME:7.87
+model-Epoch: 63 model-Train Loss: 0.0936 model-Val Loss: 0.0981 model-Acc: 0.8623 model-Pre: 0.8845 model-Recall: 0.8350 model-F1: 0.8590 model-Train AUC: 0.9440 model-Val AUC: 0.9400 Time: 8.05
+ ***************************************************************************************************************
+model2-Epoch: 64 model2-Train Loss: 0.0849 model2-Val Loss: 0.0833 model2-Train AUC: 0.9482 model2-Val AUC: 0.9479 TIME:7.88
+model-Epoch: 64 model-Train Loss: 0.0927 model-Val Loss: 0.0975 model-Acc: 0.8610 model-Pre: 0.8570 model-Recall: 0.8680 model-F1: 0.8625 model-Train AUC: 0.9443 model-Val AUC: 0.9403 Time: 8.06
+ ***************************************************************************************************************
+model2-Epoch: 65 model2-Train Loss: 0.0852 model2-Val Loss: 0.0850 model2-Train AUC: 0.9481 model2-Val AUC: 0.9459 TIME:7.60
+model-Epoch: 65 model-Train Loss: 0.0925 model-Val Loss: 0.0973 model-Acc: 0.8628 model-Pre: 0.8621 model-Recall: 0.8653 model-F1: 0.8637 model-Train AUC: 0.9444 model-Val AUC: 0.9403 Time: 7.78
+ ***************************************************************************************************************
+model2-Epoch: 66 model2-Train Loss: 0.0856 model2-Val Loss: 0.0857 model2-Train AUC: 0.9475 model2-Val AUC: 0.9449 TIME:7.69
+model-Epoch: 66 model-Train Loss: 0.0923 model-Val Loss: 0.0973 model-Acc: 0.8633 model-Pre: 0.8738 model-Recall: 0.8506 model-F1: 0.8621 model-Train AUC: 0.9445 model-Val AUC: 0.9403 Time: 7.87
+ ***************************************************************************************************************
+model2-Epoch: 67 model2-Train Loss: 0.0849 model2-Val Loss: 0.0840 model2-Train AUC: 0.9483 model2-Val AUC: 0.9469 TIME:7.76
+model-Epoch: 67 model-Train Loss: 0.0941 model-Val Loss: 0.1015 model-Acc: 0.8614 model-Pre: 0.9072 model-Recall: 0.8066 model-F1: 0.8540 model-Train AUC: 0.9444 model-Val AUC: 0.9403 Time: 7.94
+ ***************************************************************************************************************
+model2-Epoch: 68 model2-Train Loss: 0.0859 model2-Val Loss: 0.0836 model2-Train AUC: 0.9472 model2-Val AUC: 0.9469 TIME:7.69
+model-Epoch: 68 model-Train Loss: 0.0946 model-Val Loss: 0.1019 model-Acc: 0.8587 model-Pre: 0.9050 model-Recall: 0.8029 model-F1: 0.8509 model-Train AUC: 0.9440 model-Val AUC: 0.9399 Time: 7.87
+ ***************************************************************************************************************
+model2-Epoch: 69 model2-Train Loss: 0.0850 model2-Val Loss: 0.0814 model2-Train AUC: 0.9479 model2-Val AUC: 0.9490 TIME:7.67
+model-Epoch: 69 model-Train Loss: 0.0926 model-Val Loss: 0.0981 model-Acc: 0.8614 model-Pre: 0.8502 model-Recall: 0.8790 model-F1: 0.8644 model-Train AUC: 0.9442 model-Val AUC: 0.9403 Time: 7.85
+ ***************************************************************************************************************
+model2-Epoch: 70 model2-Train Loss: 0.0854 model2-Val Loss: 0.0831 model2-Train AUC: 0.9482 model2-Val AUC: 0.9472 TIME:8.51
+model-Epoch: 70 model-Train Loss: 0.0923 model-Val Loss: 0.0977 model-Acc: 0.8614 model-Pre: 0.8805 model-Recall: 0.8378 model-F1: 0.8586 model-Train AUC: 0.9445 model-Val AUC: 0.9403 Time: 8.70
+ ***************************************************************************************************************
+Fold: 1 model-Test Acc: 0.8614 model-Test Pre: 0.8805 model-Test Recall: 0.8378 model-Test F1: 0.8586 model-Test AUC: 0.9403
+
+Fold: 1 model2-Test Acc: 0.8918 model2-Test Pre: 0.8937 model2-Test Recall: 0.8911 model2-Test F1: 0.8924 model2-Test AUC: 0.9508
+------------------------------------------------------------------------------------------------------
+Training for Fold  2
+## total Training edges: 47056
+## total Testing edges: 11760
+model2-Epoch: 1 model2-Train Loss: 0.1600 model2-Val Loss: 0.1535 model2-Train AUC: 0.8589 model2-Val AUC: 0.8684 TIME:7.57
+model-Epoch: 1 model-Train Loss: 0.2206 model-Val Loss: 0.2178 model-Acc: 0.4986 model-Pre: 0.4984 model-Recall: 1.0000 model-F1: 0.6652 model-Train AUC: 0.9039 model-Val AUC: 0.9207 Time: 7.76
+ ***************************************************************************************************************
+model2-Epoch: 2 model2-Train Loss: 0.1292 model2-Val Loss: 0.1338 model2-Train AUC: 0.8916 model2-Val AUC: 0.8937 TIME:7.64
+model-Epoch: 2 model-Train Loss: 0.1620 model-Val Loss: 0.1429 model-Acc: 0.8448 model-Pre: 0.8538 model-Recall: 0.8309 model-F1: 0.8422 model-Train AUC: 0.9034 model-Val AUC: 0.9215 Time: 7.81
+ ***************************************************************************************************************
+model2-Epoch: 3 model2-Train Loss: 0.1222 model2-Val Loss: 0.1283 model2-Train AUC: 0.9072 model2-Val AUC: 0.9056 TIME:7.51
+model-Epoch: 3 model-Train Loss: 0.1228 model-Val Loss: 0.1240 model-Acc: 0.8370 model-Pre: 0.7984 model-Recall: 0.9002 model-F1: 0.8462 model-Train AUC: 0.9073 model-Val AUC: 0.9230 Time: 7.69
+ ***************************************************************************************************************
+model2-Epoch: 4 model2-Train Loss: 0.1165 model2-Val Loss: 0.1227 model2-Train AUC: 0.9134 model2-Val AUC: 0.9112 TIME:7.72
+model-Epoch: 4 model-Train Loss: 0.1229 model-Val Loss: 0.1118 model-Acc: 0.8448 model-Pre: 0.8836 model-Recall: 0.7930 model-F1: 0.8358 model-Train AUC: 0.9094 model-Val AUC: 0.9232 Time: 7.90
+ ***************************************************************************************************************
+model2-Epoch: 5 model2-Train Loss: 0.1144 model2-Val Loss: 0.1188 model2-Train AUC: 0.9160 model2-Val AUC: 0.9143 TIME:7.65
+model-Epoch: 5 model-Train Loss: 0.1214 model-Val Loss: 0.1118 model-Acc: 0.8490 model-Pre: 0.8440 model-Recall: 0.8549 model-F1: 0.8494 model-Train AUC: 0.9099 model-Val AUC: 0.9234 Time: 7.83
+ ***************************************************************************************************************
+model2-Epoch: 6 model2-Train Loss: 0.1127 model2-Val Loss: 0.1148 model2-Train AUC: 0.9180 model2-Val AUC: 0.9202 TIME:7.64
+model-Epoch: 6 model-Train Loss: 0.1197 model-Val Loss: 0.1096 model-Acc: 0.8476 model-Pre: 0.8700 model-Recall: 0.8161 model-F1: 0.8422 model-Train AUC: 0.9113 model-Val AUC: 0.9237 Time: 7.83
+ ***************************************************************************************************************
+model2-Epoch: 7 model2-Train Loss: 0.1114 model2-Val Loss: 0.1126 model2-Train AUC: 0.9210 model2-Val AUC: 0.9209 TIME:7.62
+model-Epoch: 7 model-Train Loss: 0.1192 model-Val Loss: 0.1095 model-Acc: 0.8499 model-Pre: 0.8691 model-Recall: 0.8226 model-F1: 0.8452 model-Train AUC: 0.9123 model-Val AUC: 0.9240 Time: 7.80
+ ***************************************************************************************************************
+model2-Epoch: 8 model2-Train Loss: 0.1090 model2-Val Loss: 0.1120 model2-Train AUC: 0.9227 model2-Val AUC: 0.9217 TIME:7.91
+model-Epoch: 8 model-Train Loss: 0.1187 model-Val Loss: 0.1099 model-Acc: 0.8499 model-Pre: 0.8607 model-Recall: 0.8336 model-F1: 0.8469 model-Train AUC: 0.9130 model-Val AUC: 0.9241 Time: 8.11
+ ***************************************************************************************************************
+model2-Epoch: 9 model2-Train Loss: 0.1075 model2-Val Loss: 0.1102 model2-Train AUC: 0.9244 model2-Val AUC: 0.9226 TIME:8.03
+model-Epoch: 9 model-Train Loss: 0.1182 model-Val Loss: 0.1096 model-Acc: 0.8504 model-Pre: 0.8622 model-Recall: 0.8327 model-F1: 0.8472 model-Train AUC: 0.9135 model-Val AUC: 0.9242 Time: 8.21
+ ***************************************************************************************************************
+model2-Epoch: 10 model2-Train Loss: 0.1062 model2-Val Loss: 0.1071 model2-Train AUC: 0.9247 model2-Val AUC: 0.9272 TIME:7.88
+model-Epoch: 10 model-Train Loss: 0.1178 model-Val Loss: 0.1100 model-Acc: 0.8485 model-Pre: 0.8535 model-Recall: 0.8401 model-F1: 0.8468 model-Train AUC: 0.9140 model-Val AUC: 0.9243 Time: 8.06
+ ***************************************************************************************************************
+model2-Epoch: 11 model2-Train Loss: 0.1062 model2-Val Loss: 0.1077 model2-Train AUC: 0.9259 model2-Val AUC: 0.9245 TIME:7.96
+model-Epoch: 11 model-Train Loss: 0.1179 model-Val Loss: 0.1088 model-Acc: 0.8499 model-Pre: 0.8728 model-Recall: 0.8179 model-F1: 0.8445 model-Train AUC: 0.9146 model-Val AUC: 0.9243 Time: 8.13
+ ***************************************************************************************************************
+model2-Epoch: 12 model2-Train Loss: 0.1047 model2-Val Loss: 0.1069 model2-Train AUC: 0.9275 model2-Val AUC: 0.9261 TIME:7.79
+model-Epoch: 12 model-Train Loss: 0.1172 model-Val Loss: 0.1094 model-Acc: 0.8504 model-Pre: 0.8561 model-Recall: 0.8410 model-F1: 0.8485 model-Train AUC: 0.9150 model-Val AUC: 0.9249 Time: 7.97
+ ***************************************************************************************************************
+model2-Epoch: 13 model2-Train Loss: 0.1035 model2-Val Loss: 0.1042 model2-Train AUC: 0.9290 model2-Val AUC: 0.9282 TIME:7.90
+model-Epoch: 13 model-Train Loss: 0.1197 model-Val Loss: 0.1088 model-Acc: 0.8522 model-Pre: 0.8879 model-Recall: 0.8050 model-F1: 0.8444 model-Train AUC: 0.9157 model-Val AUC: 0.9249 Time: 8.10
+ ***************************************************************************************************************
+model2-Epoch: 14 model2-Train Loss: 0.1047 model2-Val Loss: 0.1061 model2-Train AUC: 0.9272 model2-Val AUC: 0.9264 TIME:8.02
+model-Epoch: 14 model-Train Loss: 0.1174 model-Val Loss: 0.1080 model-Acc: 0.8508 model-Pre: 0.8752 model-Recall: 0.8170 model-F1: 0.8451 model-Train AUC: 0.9161 model-Val AUC: 0.9255 Time: 8.20
+ ***************************************************************************************************************
+model2-Epoch: 15 model2-Train Loss: 0.1023 model2-Val Loss: 0.1073 model2-Train AUC: 0.9308 model2-Val AUC: 0.9255 TIME:8.10
+model-Epoch: 15 model-Train Loss: 0.1162 model-Val Loss: 0.1078 model-Acc: 0.8517 model-Pre: 0.8770 model-Recall: 0.8170 model-F1: 0.8459 model-Train AUC: 0.9167 model-Val AUC: 0.9258 Time: 8.28
+ ***************************************************************************************************************
+model2-Epoch: 16 model2-Train Loss: 0.1013 model2-Val Loss: 0.1037 model2-Train AUC: 0.9308 model2-Val AUC: 0.9297 TIME:8.10
+model-Epoch: 16 model-Train Loss: 0.1161 model-Val Loss: 0.1098 model-Acc: 0.8490 model-Pre: 0.8427 model-Recall: 0.8567 model-F1: 0.8497 model-Train AUC: 0.9172 model-Val AUC: 0.9265 Time: 8.27
+ ***************************************************************************************************************
+model2-Epoch: 17 model2-Train Loss: 0.1008 model2-Val Loss: 0.1026 model2-Train AUC: 0.9317 model2-Val AUC: 0.9319 TIME:8.11
+model-Epoch: 17 model-Train Loss: 0.1152 model-Val Loss: 0.1071 model-Acc: 0.8536 model-Pre: 0.8767 model-Recall: 0.8216 model-F1: 0.8483 model-Train AUC: 0.9179 model-Val AUC: 0.9267 Time: 8.29
+ ***************************************************************************************************************
+model2-Epoch: 18 model2-Train Loss: 0.1004 model2-Val Loss: 0.1036 model2-Train AUC: 0.9317 model2-Val AUC: 0.9295 TIME:8.07
+model-Epoch: 18 model-Train Loss: 0.1164 model-Val Loss: 0.1109 model-Acc: 0.8490 model-Pre: 0.8307 model-Recall: 0.8752 model-F1: 0.8524 model-Train AUC: 0.9184 model-Val AUC: 0.9275 Time: 8.25
+ ***************************************************************************************************************
+model2-Epoch: 19 model2-Train Loss: 0.0991 model2-Val Loss: 0.1016 model2-Train AUC: 0.9326 model2-Val AUC: 0.9321 TIME:7.71
+model-Epoch: 19 model-Train Loss: 0.1152 model-Val Loss: 0.1085 model-Acc: 0.8531 model-Pre: 0.8478 model-Recall: 0.8595 model-F1: 0.8536 model-Train AUC: 0.9191 model-Val AUC: 0.9278 Time: 7.89
+ ***************************************************************************************************************
+model2-Epoch: 20 model2-Train Loss: 0.0981 model2-Val Loss: 0.1030 model2-Train AUC: 0.9345 model2-Val AUC: 0.9303 TIME:7.90
+model-Epoch: 20 model-Train Loss: 0.1138 model-Val Loss: 0.1068 model-Acc: 0.8531 model-Pre: 0.8602 model-Recall: 0.8420 model-F1: 0.8510 model-Train AUC: 0.9198 model-Val AUC: 0.9282 Time: 8.08
+ ***************************************************************************************************************
+model2-Epoch: 21 model2-Train Loss: 0.0981 model2-Val Loss: 0.0997 model2-Train AUC: 0.9351 model2-Val AUC: 0.9338 TIME:7.69
+model-Epoch: 21 model-Train Loss: 0.1147 model-Val Loss: 0.1064 model-Acc: 0.8545 model-Pre: 0.8606 model-Recall: 0.8447 model-F1: 0.8526 model-Train AUC: 0.9204 model-Val AUC: 0.9288 Time: 7.87
+ ***************************************************************************************************************
+model2-Epoch: 22 model2-Train Loss: 0.0968 model2-Val Loss: 0.0984 model2-Train AUC: 0.9356 model2-Val AUC: 0.9349 TIME:7.62
+model-Epoch: 22 model-Train Loss: 0.1137 model-Val Loss: 0.1067 model-Acc: 0.8531 model-Pre: 0.8516 model-Recall: 0.8540 model-F1: 0.8528 model-Train AUC: 0.9211 model-Val AUC: 0.9293 Time: 7.79
+ ***************************************************************************************************************
+model2-Epoch: 23 model2-Train Loss: 0.0965 model2-Val Loss: 0.0972 model2-Train AUC: 0.9362 model2-Val AUC: 0.9358 TIME:7.86
+model-Epoch: 23 model-Train Loss: 0.1136 model-Val Loss: 0.1051 model-Acc: 0.8550 model-Pre: 0.8854 model-Recall: 0.8142 model-F1: 0.8483 model-Train AUC: 0.9218 model-Val AUC: 0.9298 Time: 8.03
+ ***************************************************************************************************************
+model2-Epoch: 24 model2-Train Loss: 0.0967 model2-Val Loss: 0.1001 model2-Train AUC: 0.9355 model2-Val AUC: 0.9340 TIME:7.79
+model-Epoch: 24 model-Train Loss: 0.1118 model-Val Loss: 0.1060 model-Acc: 0.8559 model-Pre: 0.8544 model-Recall: 0.8567 model-F1: 0.8556 model-Train AUC: 0.9227 model-Val AUC: 0.9305 Time: 7.98
+ ***************************************************************************************************************
+model2-Epoch: 25 model2-Train Loss: 0.0958 model2-Val Loss: 0.0966 model2-Train AUC: 0.9372 model2-Val AUC: 0.9372 TIME:8.37
+model-Epoch: 25 model-Train Loss: 0.1191 model-Val Loss: 0.1044 model-Acc: 0.8564 model-Pre: 0.8709 model-Recall: 0.8355 model-F1: 0.8528 model-Train AUC: 0.9222 model-Val AUC: 0.9310 Time: 8.55
+ ***************************************************************************************************************
+model2-Epoch: 26 model2-Train Loss: 0.0957 model2-Val Loss: 0.0988 model2-Train AUC: 0.9369 model2-Val AUC: 0.9340 TIME:8.14
+model-Epoch: 26 model-Train Loss: 0.1124 model-Val Loss: 0.1054 model-Acc: 0.8545 model-Pre: 0.8965 model-Recall: 0.8004 model-F1: 0.8457 model-Train AUC: 0.9233 model-Val AUC: 0.9316 Time: 8.32
+ ***************************************************************************************************************
+model2-Epoch: 27 model2-Train Loss: 0.0951 model2-Val Loss: 0.0970 model2-Train AUC: 0.9378 model2-Val AUC: 0.9359 TIME:7.93
+model-Epoch: 27 model-Train Loss: 0.1108 model-Val Loss: 0.1035 model-Acc: 0.8596 model-Pre: 0.8835 model-Recall: 0.8272 model-F1: 0.8544 model-Train AUC: 0.9244 model-Val AUC: 0.9320 Time: 8.11
+ ***************************************************************************************************************
+model2-Epoch: 28 model2-Train Loss: 0.0938 model2-Val Loss: 0.0950 model2-Train AUC: 0.9387 model2-Val AUC: 0.9387 TIME:8.07
+model-Epoch: 28 model-Train Loss: 0.1100 model-Val Loss: 0.1046 model-Acc: 0.8591 model-Pre: 0.8547 model-Recall: 0.8641 model-F1: 0.8594 model-Train AUC: 0.9252 model-Val AUC: 0.9326 Time: 8.25
+ ***************************************************************************************************************
+model2-Epoch: 29 model2-Train Loss: 0.0924 model2-Val Loss: 0.0971 model2-Train AUC: 0.9399 model2-Val AUC: 0.9363 TIME:8.09
+model-Epoch: 29 model-Train Loss: 0.1095 model-Val Loss: 0.1037 model-Acc: 0.8605 model-Pre: 0.8583 model-Recall: 0.8623 model-F1: 0.8603 model-Train AUC: 0.9262 model-Val AUC: 0.9334 Time: 8.29
+ ***************************************************************************************************************
+model2-Epoch: 30 model2-Train Loss: 0.0917 model2-Val Loss: 0.0968 model2-Train AUC: 0.9405 model2-Val AUC: 0.9363 TIME:8.06
+model-Epoch: 30 model-Train Loss: 0.1083 model-Val Loss: 0.1016 model-Acc: 0.8628 model-Pre: 0.8851 model-Recall: 0.8327 model-F1: 0.8581 model-Train AUC: 0.9272 model-Val AUC: 0.9341 Time: 8.24
+ ***************************************************************************************************************
+model2-Epoch: 31 model2-Train Loss: 0.0927 model2-Val Loss: 0.0964 model2-Train AUC: 0.9394 model2-Val AUC: 0.9371 TIME:7.87
+model-Epoch: 31 model-Train Loss: 0.1168 model-Val Loss: 0.1106 model-Acc: 0.8485 model-Pre: 0.8145 model-Recall: 0.9011 model-F1: 0.8556 model-Train AUC: 0.9247 model-Val AUC: 0.9331 Time: 8.04
+ ***************************************************************************************************************
+model2-Epoch: 32 model2-Train Loss: 0.0916 model2-Val Loss: 0.0935 model2-Train AUC: 0.9408 model2-Val AUC: 0.9396 TIME:8.07
+model-Epoch: 32 model-Train Loss: 0.1135 model-Val Loss: 0.1022 model-Acc: 0.8628 model-Pre: 0.8748 model-Recall: 0.8457 model-F1: 0.8600 model-Train AUC: 0.9275 model-Val AUC: 0.9345 Time: 8.24
+ ***************************************************************************************************************
+model2-Epoch: 33 model2-Train Loss: 0.0921 model2-Val Loss: 0.0956 model2-Train AUC: 0.9409 model2-Val AUC: 0.9377 TIME:7.96
+model-Epoch: 33 model-Train Loss: 0.1097 model-Val Loss: 0.1015 model-Acc: 0.8633 model-Pre: 0.8822 model-Recall: 0.8373 model-F1: 0.8592 model-Train AUC: 0.9274 model-Val AUC: 0.9350 Time: 8.14
+ ***************************************************************************************************************
+model2-Epoch: 34 model2-Train Loss: 0.0924 model2-Val Loss: 0.0947 model2-Train AUC: 0.9403 model2-Val AUC: 0.9389 TIME:8.18
+model-Epoch: 34 model-Train Loss: 0.1076 model-Val Loss: 0.1026 model-Acc: 0.8628 model-Pre: 0.8590 model-Recall: 0.8669 model-F1: 0.8629 model-Train AUC: 0.9283 model-Val AUC: 0.9351 Time: 8.36
+ ***************************************************************************************************************
+model2-Epoch: 35 model2-Train Loss: 0.0916 model2-Val Loss: 0.0940 model2-Train AUC: 0.9410 model2-Val AUC: 0.9400 TIME:7.95
+model-Epoch: 35 model-Train Loss: 0.1068 model-Val Loss: 0.1014 model-Acc: 0.8660 model-Pre: 0.8652 model-Recall: 0.8660 model-F1: 0.8656 model-Train AUC: 0.9293 model-Val AUC: 0.9358 Time: 8.13
+ ***************************************************************************************************************
+model2-Epoch: 36 model2-Train Loss: 0.0905 model2-Val Loss: 0.0950 model2-Train AUC: 0.9421 model2-Val AUC: 0.9383 TIME:8.00
+model-Epoch: 36 model-Train Loss: 0.1060 model-Val Loss: 0.0999 model-Acc: 0.8679 model-Pre: 0.8754 model-Recall: 0.8567 model-F1: 0.8660 model-Train AUC: 0.9302 model-Val AUC: 0.9366 Time: 8.18
+ ***************************************************************************************************************
+model2-Epoch: 37 model2-Train Loss: 0.0910 model2-Val Loss: 0.0947 model2-Train AUC: 0.9414 model2-Val AUC: 0.9381 TIME:7.98
+model-Epoch: 37 model-Train Loss: 0.1050 model-Val Loss: 0.0993 model-Acc: 0.8679 model-Pre: 0.8746 model-Recall: 0.8577 model-F1: 0.8661 model-Train AUC: 0.9313 model-Val AUC: 0.9375 Time: 8.16
+ ***************************************************************************************************************
+model2-Epoch: 38 model2-Train Loss: 0.0903 model2-Val Loss: 0.0952 model2-Train AUC: 0.9424 model2-Val AUC: 0.9374 TIME:8.00
+model-Epoch: 38 model-Train Loss: 0.1173 model-Val Loss: 0.1359 model-Acc: 0.8154 model-Pre: 0.7451 model-Recall: 0.9566 model-F1: 0.8377 model-Train AUC: 0.9330 model-Val AUC: 0.9375 Time: 8.18
+ ***************************************************************************************************************
+model2-Epoch: 39 model2-Train Loss: 0.0900 model2-Val Loss: 0.0935 model2-Train AUC: 0.9429 model2-Val AUC: 0.9397 TIME:8.08
+model-Epoch: 39 model-Train Loss: 0.1093 model-Val Loss: 0.0985 model-Acc: 0.8642 model-Pre: 0.8751 model-Recall: 0.8484 model-F1: 0.8616 model-Train AUC: 0.9307 model-Val AUC: 0.9383 Time: 8.26
+ ***************************************************************************************************************
+model2-Epoch: 40 model2-Train Loss: 0.0901 model2-Val Loss: 0.0928 model2-Train AUC: 0.9426 model2-Val AUC: 0.9408 TIME:8.06
+model-Epoch: 40 model-Train Loss: 0.1047 model-Val Loss: 0.0986 model-Acc: 0.8656 model-Pre: 0.8966 model-Recall: 0.8253 model-F1: 0.8595 model-Train AUC: 0.9330 model-Val AUC: 0.9392 Time: 8.24
+ ***************************************************************************************************************
+model2-Epoch: 41 model2-Train Loss: 0.0892 model2-Val Loss: 0.0921 model2-Train AUC: 0.9432 model2-Val AUC: 0.9419 TIME:8.08
+model-Epoch: 41 model-Train Loss: 0.1038 model-Val Loss: 0.0984 model-Acc: 0.8697 model-Pre: 0.8655 model-Recall: 0.8743 model-F1: 0.8699 model-Train AUC: 0.9338 model-Val AUC: 0.9394 Time: 8.25
+ ***************************************************************************************************************
+model2-Epoch: 42 model2-Train Loss: 0.0895 model2-Val Loss: 0.0937 model2-Train AUC: 0.9424 model2-Val AUC: 0.9392 TIME:8.01
+model-Epoch: 42 model-Train Loss: 0.1024 model-Val Loss: 0.0968 model-Acc: 0.8692 model-Pre: 0.8807 model-Recall: 0.8530 model-F1: 0.8667 model-Train AUC: 0.9347 model-Val AUC: 0.9404 Time: 8.19
+ ***************************************************************************************************************
+model2-Epoch: 43 model2-Train Loss: 0.0889 model2-Val Loss: 0.0935 model2-Train AUC: 0.9436 model2-Val AUC: 0.9406 TIME:8.01
+model-Epoch: 43 model-Train Loss: 0.1031 model-Val Loss: 0.1025 model-Acc: 0.8688 model-Pre: 0.8397 model-Recall: 0.9104 model-F1: 0.8736 model-Train AUC: 0.9361 model-Val AUC: 0.9410 Time: 8.19
+ ***************************************************************************************************************
+model2-Epoch: 44 model2-Train Loss: 0.0882 model2-Val Loss: 0.0907 model2-Train AUC: 0.9448 model2-Val AUC: 0.9414 TIME:8.01
+model-Epoch: 44 model-Train Loss: 0.1016 model-Val Loss: 0.1016 model-Acc: 0.8688 model-Pre: 0.8421 model-Recall: 0.9067 model-F1: 0.8732 model-Train AUC: 0.9354 model-Val AUC: 0.9408 Time: 8.19
+ ***************************************************************************************************************
+model2-Epoch: 45 model2-Train Loss: 0.0884 model2-Val Loss: 0.0912 model2-Train AUC: 0.9436 model2-Val AUC: 0.9423 TIME:7.98
+model-Epoch: 45 model-Train Loss: 0.1037 model-Val Loss: 0.1015 model-Acc: 0.8715 model-Pre: 0.8435 model-Recall: 0.9113 model-F1: 0.8761 model-Train AUC: 0.9372 model-Val AUC: 0.9418 Time: 8.16
+ ***************************************************************************************************************
+model2-Epoch: 46 model2-Train Loss: 0.0883 model2-Val Loss: 0.0924 model2-Train AUC: 0.9447 model2-Val AUC: 0.9405 TIME:7.98
+model-Epoch: 46 model-Train Loss: 0.1011 model-Val Loss: 0.0975 model-Acc: 0.8720 model-Pre: 0.8558 model-Recall: 0.8937 model-F1: 0.8743 model-Train AUC: 0.9375 model-Val AUC: 0.9426 Time: 8.16
+ ***************************************************************************************************************
+model2-Epoch: 47 model2-Train Loss: 0.0879 model2-Val Loss: 0.0928 model2-Train AUC: 0.9443 model2-Val AUC: 0.9417 TIME:8.07
+model-Epoch: 47 model-Train Loss: 0.1122 model-Val Loss: 0.1018 model-Acc: 0.8541 model-Pre: 0.9208 model-Recall: 0.7736 model-F1: 0.8408 model-Train AUC: 0.9371 model-Val AUC: 0.9434 Time: 8.25
+ ***************************************************************************************************************
+model2-Epoch: 48 model2-Train Loss: 0.0883 model2-Val Loss: 0.0931 model2-Train AUC: 0.9446 model2-Val AUC: 0.9404 TIME:8.00
+model-Epoch: 48 model-Train Loss: 0.0992 model-Val Loss: 0.0984 model-Acc: 0.8725 model-Pre: 0.8497 model-Recall: 0.9039 model-F1: 0.8760 model-Train AUC: 0.9380 model-Val AUC: 0.9430 Time: 8.17
+ ***************************************************************************************************************
+model2-Epoch: 49 model2-Train Loss: 0.0880 model2-Val Loss: 0.0895 model2-Train AUC: 0.9445 model2-Val AUC: 0.9435 TIME:8.04
+model-Epoch: 49 model-Train Loss: 0.0989 model-Val Loss: 0.0969 model-Acc: 0.8743 model-Pre: 0.8564 model-Recall: 0.8983 model-F1: 0.8769 model-Train AUC: 0.9387 model-Val AUC: 0.9435 Time: 8.22
+ ***************************************************************************************************************
+model2-Epoch: 50 model2-Train Loss: 0.0876 model2-Val Loss: 0.0923 model2-Train AUC: 0.9446 model2-Val AUC: 0.9406 TIME:7.98
+model-Epoch: 50 model-Train Loss: 0.0982 model-Val Loss: 0.0943 model-Acc: 0.8752 model-Pre: 0.8690 model-Recall: 0.8826 model-F1: 0.8757 model-Train AUC: 0.9393 model-Val AUC: 0.9443 Time: 8.16
+ ***************************************************************************************************************
+model2-Epoch: 51 model2-Train Loss: 0.0874 model2-Val Loss: 0.0917 model2-Train AUC: 0.9448 model2-Val AUC: 0.9418 TIME:8.04
+model-Epoch: 51 model-Train Loss: 0.0988 model-Val Loss: 0.0932 model-Acc: 0.8743 model-Pre: 0.8820 model-Recall: 0.8632 model-F1: 0.8725 model-Train AUC: 0.9392 model-Val AUC: 0.9442 Time: 8.22
+ ***************************************************************************************************************
+model2-Epoch: 52 model2-Train Loss: 0.0864 model2-Val Loss: 0.0916 model2-Train AUC: 0.9451 model2-Val AUC: 0.9421 TIME:8.11
+model-Epoch: 52 model-Train Loss: 0.1037 model-Val Loss: 0.1021 model-Acc: 0.8656 model-Pre: 0.8259 model-Recall: 0.9251 model-F1: 0.8727 model-Train AUC: 0.9401 model-Val AUC: 0.9444 Time: 8.29
+ ***************************************************************************************************************
+model2-Epoch: 53 model2-Train Loss: 0.0869 model2-Val Loss: 0.0907 model2-Train AUC: 0.9451 model2-Val AUC: 0.9425 TIME:8.08
+model-Epoch: 53 model-Train Loss: 0.0992 model-Val Loss: 0.0973 model-Acc: 0.8725 model-Pre: 0.8449 model-Recall: 0.9113 model-F1: 0.8768 model-Train AUC: 0.9403 model-Val AUC: 0.9448 Time: 8.26
+ ***************************************************************************************************************
+model2-Epoch: 54 model2-Train Loss: 0.0873 model2-Val Loss: 0.0883 model2-Train AUC: 0.9448 model2-Val AUC: 0.9437 TIME:8.05
+model-Epoch: 54 model-Train Loss: 0.0983 model-Val Loss: 0.0925 model-Acc: 0.8775 model-Pre: 0.8916 model-Recall: 0.8586 model-F1: 0.8748 model-Train AUC: 0.9401 model-Val AUC: 0.9454 Time: 8.23
+ ***************************************************************************************************************
+model2-Epoch: 55 model2-Train Loss: 0.0860 model2-Val Loss: 0.0896 model2-Train AUC: 0.9462 model2-Val AUC: 0.9443 TIME:8.02
+model-Epoch: 55 model-Train Loss: 0.1150 model-Val Loss: 0.1247 model-Acc: 0.8356 model-Pre: 0.7663 model-Recall: 0.9640 model-F1: 0.8539 model-Train AUC: 0.9408 model-Val AUC: 0.9441 Time: 8.20
+ ***************************************************************************************************************
+model2-Epoch: 56 model2-Train Loss: 0.0860 model2-Val Loss: 0.0911 model2-Train AUC: 0.9465 model2-Val AUC: 0.9429 TIME:8.06
+model-Epoch: 56 model-Train Loss: 0.1026 model-Val Loss: 0.0934 model-Acc: 0.8766 model-Pre: 0.8693 model-Recall: 0.8854 model-F1: 0.8773 model-Train AUC: 0.9394 model-Val AUC: 0.9448 Time: 8.23
+ ***************************************************************************************************************
+model2-Epoch: 57 model2-Train Loss: 0.0859 model2-Val Loss: 0.0908 model2-Train AUC: 0.9465 model2-Val AUC: 0.9420 TIME:7.96
+model-Epoch: 57 model-Train Loss: 0.0975 model-Val Loss: 0.0938 model-Acc: 0.8715 model-Pre: 0.9003 model-Recall: 0.8346 model-F1: 0.8662 model-Train AUC: 0.9400 model-Val AUC: 0.9452 Time: 8.13
+ ***************************************************************************************************************
+model2-Epoch: 58 model2-Train Loss: 0.0862 model2-Val Loss: 0.0907 model2-Train AUC: 0.9464 model2-Val AUC: 0.9434 TIME:8.05
+model-Epoch: 58 model-Train Loss: 0.0969 model-Val Loss: 0.0923 model-Acc: 0.8780 model-Pre: 0.8872 model-Recall: 0.8651 model-F1: 0.8760 model-Train AUC: 0.9408 model-Val AUC: 0.9454 Time: 8.23
+ ***************************************************************************************************************
+model2-Epoch: 59 model2-Train Loss: 0.0848 model2-Val Loss: 0.0899 model2-Train AUC: 0.9474 model2-Val AUC: 0.9434 TIME:8.01
+model-Epoch: 59 model-Train Loss: 0.0968 model-Val Loss: 0.0938 model-Acc: 0.8752 model-Pre: 0.8611 model-Recall: 0.8937 model-F1: 0.8771 model-Train AUC: 0.9411 model-Val AUC: 0.9457 Time: 8.19
+ ***************************************************************************************************************
+model2-Epoch: 60 model2-Train Loss: 0.0854 model2-Val Loss: 0.0888 model2-Train AUC: 0.9472 model2-Val AUC: 0.9439 TIME:8.01
+model-Epoch: 60 model-Train Loss: 0.0960 model-Val Loss: 0.0918 model-Acc: 0.8775 model-Pre: 0.8827 model-Recall: 0.8697 model-F1: 0.8762 model-Train AUC: 0.9413 model-Val AUC: 0.9460 Time: 8.19
+ ***************************************************************************************************************
+model2-Epoch: 61 model2-Train Loss: 0.0852 model2-Val Loss: 0.0891 model2-Train AUC: 0.9469 model2-Val AUC: 0.9434 TIME:8.08
+model-Epoch: 61 model-Train Loss: 0.0957 model-Val Loss: 0.0916 model-Acc: 0.8785 model-Pre: 0.8794 model-Recall: 0.8762 model-F1: 0.8778 model-Train AUC: 0.9416 model-Val AUC: 0.9463 Time: 8.26
+ ***************************************************************************************************************
+model2-Epoch: 62 model2-Train Loss: 0.0850 model2-Val Loss: 0.0887 model2-Train AUC: 0.9466 model2-Val AUC: 0.9435 TIME:7.94
+model-Epoch: 62 model-Train Loss: 0.0961 model-Val Loss: 0.0914 model-Acc: 0.8775 model-Pre: 0.8908 model-Recall: 0.8595 model-F1: 0.8749 model-Train AUC: 0.9418 model-Val AUC: 0.9465 Time: 8.12
+ ***************************************************************************************************************
+model2-Epoch: 63 model2-Train Loss: 0.0846 model2-Val Loss: 0.0879 model2-Train AUC: 0.9475 model2-Val AUC: 0.9445 TIME:7.98
+model-Epoch: 63 model-Train Loss: 0.1004 model-Val Loss: 0.0927 model-Acc: 0.8771 model-Pre: 0.8668 model-Recall: 0.8900 model-F1: 0.8782 model-Train AUC: 0.9413 model-Val AUC: 0.9457 Time: 8.15
+ ***************************************************************************************************************
+model2-Epoch: 64 model2-Train Loss: 0.0841 model2-Val Loss: 0.0880 model2-Train AUC: 0.9478 model2-Val AUC: 0.9448 TIME:7.99
+model-Epoch: 64 model-Train Loss: 0.0955 model-Val Loss: 0.0916 model-Acc: 0.8794 model-Pre: 0.8935 model-Recall: 0.8604 model-F1: 0.8766 model-Train AUC: 0.9417 model-Val AUC: 0.9463 Time: 8.17
+ ***************************************************************************************************************
+model2-Epoch: 65 model2-Train Loss: 0.0853 model2-Val Loss: 0.0881 model2-Train AUC: 0.9464 model2-Val AUC: 0.9445 TIME:8.03
+model-Epoch: 65 model-Train Loss: 0.0959 model-Val Loss: 0.0915 model-Acc: 0.8798 model-Pre: 0.8797 model-Recall: 0.8789 model-F1: 0.8793 model-Train AUC: 0.9420 model-Val AUC: 0.9465 Time: 8.21
+ ***************************************************************************************************************
+model2-Epoch: 66 model2-Train Loss: 0.0835 model2-Val Loss: 0.0890 model2-Train AUC: 0.9486 model2-Val AUC: 0.9436 TIME:8.24
+model-Epoch: 66 model-Train Loss: 0.0951 model-Val Loss: 0.0919 model-Acc: 0.8794 model-Pre: 0.8700 model-Recall: 0.8909 model-F1: 0.8804 model-Train AUC: 0.9421 model-Val AUC: 0.9466 Time: 8.41
+ ***************************************************************************************************************
+model2-Epoch: 67 model2-Train Loss: 0.0850 model2-Val Loss: 0.0876 model2-Train AUC: 0.9473 model2-Val AUC: 0.9450 TIME:8.14
+model-Epoch: 67 model-Train Loss: 0.0950 model-Val Loss: 0.0910 model-Acc: 0.8785 model-Pre: 0.8815 model-Recall: 0.8734 model-F1: 0.8774 model-Train AUC: 0.9422 model-Val AUC: 0.9468 Time: 8.31
+ ***************************************************************************************************************
+model2-Epoch: 68 model2-Train Loss: 0.0846 model2-Val Loss: 0.0872 model2-Train AUC: 0.9478 model2-Val AUC: 0.9451 TIME:7.96
+model-Epoch: 68 model-Train Loss: 0.0963 model-Val Loss: 0.0919 model-Acc: 0.8757 model-Pre: 0.8965 model-Recall: 0.8484 model-F1: 0.8718 model-Train AUC: 0.9423 model-Val AUC: 0.9469 Time: 8.14
+ ***************************************************************************************************************
+model2-Epoch: 69 model2-Train Loss: 0.0838 model2-Val Loss: 0.0885 model2-Train AUC: 0.9482 model2-Val AUC: 0.9437 TIME:8.02
+model-Epoch: 69 model-Train Loss: 0.0961 model-Val Loss: 0.0910 model-Acc: 0.8794 model-Pre: 0.8796 model-Recall: 0.8780 model-F1: 0.8788 model-Train AUC: 0.9422 model-Val AUC: 0.9465 Time: 8.20
+ ***************************************************************************************************************
+model2-Epoch: 70 model2-Train Loss: 0.0842 model2-Val Loss: 0.0887 model2-Train AUC: 0.9481 model2-Val AUC: 0.9447 TIME:7.97
+model-Epoch: 70 model-Train Loss: 0.0948 model-Val Loss: 0.0910 model-Acc: 0.8775 model-Pre: 0.8864 model-Recall: 0.8651 model-F1: 0.8756 model-Train AUC: 0.9422 model-Val AUC: 0.9466 Time: 8.15
+ ***************************************************************************************************************
+Fold: 2 model-Test Acc: 0.8775 model-Test Pre: 0.8864 model-Test Recall: 0.8651 model-Test F1: 0.8756 model-Test AUC: 0.9466
+
+Fold: 2 model2-Test Acc: 0.8875 model2-Test Pre: 0.8708 model2-Test Recall: 0.9018 model2-Test F1: 0.8860 model2-Test AUC: 0.9490
+------------------------------------------------------------------------------------------------------
+Training for Fold  3
+## total Training edges: 47050
+## total Testing edges: 11766
+model2-Epoch: 1 model2-Train Loss: 0.1494 model2-Val Loss: 0.1434 model2-Train AUC: 0.8596 model2-Val AUC: 0.8729 TIME:8.00
+model-Epoch: 1 model-Train Loss: 0.2081 model-Val Loss: 0.2055 model-Acc: 0.8163 model-Pre: 0.7640 model-Recall: 0.9109 model-F1: 0.8310 model-Train AUC: 0.9101 model-Val AUC: 0.9124 Time: 8.18
+ ***************************************************************************************************************
+model2-Epoch: 2 model2-Train Loss: 0.1292 model2-Val Loss: 0.1329 model2-Train AUC: 0.8992 model2-Val AUC: 0.9018 TIME:7.97
+model-Epoch: 2 model-Train Loss: 0.1342 model-Val Loss: 0.1324 model-Acc: 0.8260 model-Pre: 0.7862 model-Recall: 0.8914 model-F1: 0.8355 model-Train AUC: 0.9098 model-Val AUC: 0.9132 Time: 8.15
+ ***************************************************************************************************************
+model2-Epoch: 3 model2-Train Loss: 0.1215 model2-Val Loss: 0.1240 model2-Train AUC: 0.9074 model2-Val AUC: 0.9082 TIME:7.98
+model-Epoch: 3 model-Train Loss: 0.1239 model-Val Loss: 0.1182 model-Acc: 0.8453 model-Pre: 0.8365 model-Recall: 0.8552 model-F1: 0.8457 model-Train AUC: 0.9125 model-Val AUC: 0.9146 Time: 8.16
+ ***************************************************************************************************************
+model2-Epoch: 4 model2-Train Loss: 0.1161 model2-Val Loss: 0.1203 model2-Train AUC: 0.9164 model2-Val AUC: 0.9162 TIME:8.05
+model-Epoch: 4 model-Train Loss: 0.1191 model-Val Loss: 0.1198 model-Acc: 0.8329 model-Pre: 0.8798 model-Recall: 0.7679 model-F1: 0.8200 model-Train AUC: 0.9137 model-Val AUC: 0.9150 Time: 8.23
+ ***************************************************************************************************************
+model2-Epoch: 5 model2-Train Loss: 0.1126 model2-Val Loss: 0.1153 model2-Train AUC: 0.9177 model2-Val AUC: 0.9178 TIME:7.95
+model-Epoch: 5 model-Train Loss: 0.1183 model-Val Loss: 0.1161 model-Acc: 0.8458 model-Pre: 0.8695 model-Recall: 0.8106 model-F1: 0.8390 model-Train AUC: 0.9144 model-Val AUC: 0.9156 Time: 8.12
+ ***************************************************************************************************************
+model2-Epoch: 6 model2-Train Loss: 0.1134 model2-Val Loss: 0.1135 model2-Train AUC: 0.9200 model2-Val AUC: 0.9210 TIME:8.01
+model-Epoch: 6 model-Train Loss: 0.1171 model-Val Loss: 0.1159 model-Acc: 0.8462 model-Pre: 0.8726 model-Recall: 0.8078 model-F1: 0.8390 model-Train AUC: 0.9159 model-Val AUC: 0.9162 Time: 8.19
+ ***************************************************************************************************************
+model2-Epoch: 7 model2-Train Loss: 0.1091 model2-Val Loss: 0.1131 model2-Train AUC: 0.9222 model2-Val AUC: 0.9204 TIME:7.98
+model-Epoch: 7 model-Train Loss: 0.1164 model-Val Loss: 0.1157 model-Acc: 0.8458 model-Pre: 0.8740 model-Recall: 0.8050 model-F1: 0.8381 model-Train AUC: 0.9170 model-Val AUC: 0.9167 Time: 8.16
+ ***************************************************************************************************************
+model2-Epoch: 8 model2-Train Loss: 0.1076 model2-Val Loss: 0.1087 model2-Train AUC: 0.9248 model2-Val AUC: 0.9264 TIME:7.97
+model-Epoch: 8 model-Train Loss: 0.1159 model-Val Loss: 0.1154 model-Acc: 0.8439 model-Pre: 0.8735 model-Recall: 0.8013 model-F1: 0.8358 model-Train AUC: 0.9178 model-Val AUC: 0.9171 Time: 8.15
+ ***************************************************************************************************************
+model2-Epoch: 9 model2-Train Loss: 0.1077 model2-Val Loss: 0.1089 model2-Train AUC: 0.9245 model2-Val AUC: 0.9258 TIME:7.98
+model-Epoch: 9 model-Train Loss: 0.1172 model-Val Loss: 0.1161 model-Acc: 0.8430 model-Pre: 0.8321 model-Recall: 0.8561 model-F1: 0.8439 model-Train AUC: 0.9182 model-Val AUC: 0.9177 Time: 8.16
+ ***************************************************************************************************************
+model2-Epoch: 10 model2-Train Loss: 0.1047 model2-Val Loss: 0.1076 model2-Train AUC: 0.9270 model2-Val AUC: 0.9279 TIME:8.07
+model-Epoch: 10 model-Train Loss: 0.1162 model-Val Loss: 0.1149 model-Acc: 0.8453 model-Pre: 0.8427 model-Recall: 0.8459 model-F1: 0.8443 model-Train AUC: 0.9187 model-Val AUC: 0.9178 Time: 8.24
+ ***************************************************************************************************************
+model2-Epoch: 11 model2-Train Loss: 0.1049 model2-Val Loss: 0.1044 model2-Train AUC: 0.9263 model2-Val AUC: 0.9299 TIME:8.02
+model-Epoch: 11 model-Train Loss: 0.1152 model-Val Loss: 0.1142 model-Acc: 0.8453 model-Pre: 0.8672 model-Recall: 0.8124 model-F1: 0.8389 model-Train AUC: 0.9193 model-Val AUC: 0.9180 Time: 8.19
+ ***************************************************************************************************************
+model2-Epoch: 12 model2-Train Loss: 0.1030 model2-Val Loss: 0.1061 model2-Train AUC: 0.9291 model2-Val AUC: 0.9282 TIME:8.03
+model-Epoch: 12 model-Train Loss: 0.1145 model-Val Loss: 0.1141 model-Acc: 0.8448 model-Pre: 0.8685 model-Recall: 0.8097 model-F1: 0.8381 model-Train AUC: 0.9198 model-Val AUC: 0.9182 Time: 8.21
+ ***************************************************************************************************************
+model2-Epoch: 13 model2-Train Loss: 0.1018 model2-Val Loss: 0.1054 model2-Train AUC: 0.9296 model2-Val AUC: 0.9281 TIME:8.00
+model-Epoch: 13 model-Train Loss: 0.1147 model-Val Loss: 0.1146 model-Acc: 0.8462 model-Pre: 0.8826 model-Recall: 0.7957 model-F1: 0.8369 model-Train AUC: 0.9203 model-Val AUC: 0.9186 Time: 8.19
+ ***************************************************************************************************************
+model2-Epoch: 14 model2-Train Loss: 0.1008 model2-Val Loss: 0.1025 model2-Train AUC: 0.9315 model2-Val AUC: 0.9305 TIME:7.98
+model-Epoch: 14 model-Train Loss: 0.1153 model-Val Loss: 0.1144 model-Acc: 0.8462 model-Pre: 0.8374 model-Recall: 0.8561 model-F1: 0.8466 model-Train AUC: 0.9207 model-Val AUC: 0.9190 Time: 8.16
+ ***************************************************************************************************************
+model2-Epoch: 15 model2-Train Loss: 0.1010 model2-Val Loss: 0.1028 model2-Train AUC: 0.9319 model2-Val AUC: 0.9320 TIME:8.03
+model-Epoch: 15 model-Train Loss: 0.1142 model-Val Loss: 0.1142 model-Acc: 0.8467 model-Pre: 0.8827 model-Recall: 0.7967 model-F1: 0.8375 model-Train AUC: 0.9213 model-Val AUC: 0.9194 Time: 8.21
+ ***************************************************************************************************************
+model2-Epoch: 16 model2-Train Loss: 0.0976 model2-Val Loss: 0.1002 model2-Train AUC: 0.9343 model2-Val AUC: 0.9355 TIME:8.02
+model-Epoch: 16 model-Train Loss: 0.1134 model-Val Loss: 0.1127 model-Acc: 0.8490 model-Pre: 0.8611 model-Recall: 0.8292 model-F1: 0.8448 model-Train AUC: 0.9219 model-Val AUC: 0.9199 Time: 8.19
+ ***************************************************************************************************************
+model2-Epoch: 17 model2-Train Loss: 0.0974 model2-Val Loss: 0.1010 model2-Train AUC: 0.9353 model2-Val AUC: 0.9343 TIME:8.06
+model-Epoch: 17 model-Train Loss: 0.1157 model-Val Loss: 0.1179 model-Acc: 0.8329 model-Pre: 0.8984 model-Recall: 0.7474 model-F1: 0.8160 model-Train AUC: 0.9223 model-Val AUC: 0.9202 Time: 8.24
+ ***************************************************************************************************************
+model2-Epoch: 18 model2-Train Loss: 0.0979 model2-Val Loss: 0.0990 model2-Train AUC: 0.9356 model2-Val AUC: 0.9355 TIME:8.07
+model-Epoch: 18 model-Train Loss: 0.1121 model-Val Loss: 0.1129 model-Acc: 0.8494 model-Pre: 0.8827 model-Recall: 0.8032 model-F1: 0.8410 model-Train AUC: 0.9230 model-Val AUC: 0.9208 Time: 8.25
+ ***************************************************************************************************************
+model2-Epoch: 19 model2-Train Loss: 0.0966 model2-Val Loss: 0.1000 model2-Train AUC: 0.9364 model2-Val AUC: 0.9350 TIME:8.03
+model-Epoch: 19 model-Train Loss: 0.1124 model-Val Loss: 0.1118 model-Acc: 0.8476 model-Pre: 0.8473 model-Recall: 0.8449 model-F1: 0.8461 model-Train AUC: 0.9237 model-Val AUC: 0.9214 Time: 8.21
+ ***************************************************************************************************************
+model2-Epoch: 20 model2-Train Loss: 0.0957 model2-Val Loss: 0.0965 model2-Train AUC: 0.9364 model2-Val AUC: 0.9381 TIME:8.00
+model-Epoch: 20 model-Train Loss: 0.1124 model-Val Loss: 0.1150 model-Acc: 0.8393 model-Pre: 0.8931 model-Recall: 0.7679 model-F1: 0.8258 model-Train AUC: 0.9242 model-Val AUC: 0.9219 Time: 8.18
+ ***************************************************************************************************************
+model2-Epoch: 21 model2-Train Loss: 0.0959 model2-Val Loss: 0.0971 model2-Train AUC: 0.9367 model2-Val AUC: 0.9378 TIME:8.06
+model-Epoch: 21 model-Train Loss: 0.1127 model-Val Loss: 0.1109 model-Acc: 0.8504 model-Pre: 0.8595 model-Recall: 0.8347 model-F1: 0.8469 model-Train AUC: 0.9251 model-Val AUC: 0.9223 Time: 8.23
+ ***************************************************************************************************************
+model2-Epoch: 22 model2-Train Loss: 0.0946 model2-Val Loss: 0.0959 model2-Train AUC: 0.9383 model2-Val AUC: 0.9385 TIME:7.98
+model-Epoch: 22 model-Train Loss: 0.1103 model-Val Loss: 0.1122 model-Acc: 0.8481 model-Pre: 0.8895 model-Recall: 0.7920 model-F1: 0.8379 model-Train AUC: 0.9256 model-Val AUC: 0.9231 Time: 8.16
+ ***************************************************************************************************************
+model2-Epoch: 23 model2-Train Loss: 0.0952 model2-Val Loss: 0.0948 model2-Train AUC: 0.9373 model2-Val AUC: 0.9396 TIME:8.05
+model-Epoch: 23 model-Train Loss: 0.1095 model-Val Loss: 0.1109 model-Acc: 0.8531 model-Pre: 0.8875 model-Recall: 0.8059 model-F1: 0.8448 model-Train AUC: 0.9264 model-Val AUC: 0.9236 Time: 8.23
+ ***************************************************************************************************************
+model2-Epoch: 24 model2-Train Loss: 0.0940 model2-Val Loss: 0.0965 model2-Train AUC: 0.9385 model2-Val AUC: 0.9377 TIME:7.99
+model-Epoch: 24 model-Train Loss: 0.1093 model-Val Loss: 0.1109 model-Acc: 0.8508 model-Pre: 0.8885 model-Recall: 0.7994 model-F1: 0.8416 model-Train AUC: 0.9271 model-Val AUC: 0.9244 Time: 8.17
+ ***************************************************************************************************************
+model2-Epoch: 25 model2-Train Loss: 0.0935 model2-Val Loss: 0.0951 model2-Train AUC: 0.9389 model2-Val AUC: 0.9399 TIME:7.69
+model-Epoch: 25 model-Train Loss: 0.1082 model-Val Loss: 0.1102 model-Acc: 0.8527 model-Pre: 0.8419 model-Recall: 0.8654 model-F1: 0.8535 model-Train AUC: 0.9279 model-Val AUC: 0.9247 Time: 7.87
+ ***************************************************************************************************************
+model2-Epoch: 26 model2-Train Loss: 0.0929 model2-Val Loss: 0.0946 model2-Train AUC: 0.9388 model2-Val AUC: 0.9408 TIME:7.77
+model-Epoch: 26 model-Train Loss: 0.1088 model-Val Loss: 0.1086 model-Acc: 0.8559 model-Pre: 0.8738 model-Recall: 0.8292 model-F1: 0.8509 model-Train AUC: 0.9289 model-Val AUC: 0.9256 Time: 7.95
+ ***************************************************************************************************************
+model2-Epoch: 27 model2-Train Loss: 0.0933 model2-Val Loss: 0.0924 model2-Train AUC: 0.9396 model2-Val AUC: 0.9411 TIME:7.78
+model-Epoch: 27 model-Train Loss: 0.1069 model-Val Loss: 0.1089 model-Acc: 0.8554 model-Pre: 0.8889 model-Recall: 0.8097 model-F1: 0.8474 model-Train AUC: 0.9296 model-Val AUC: 0.9263 Time: 7.95
+ ***************************************************************************************************************
+model2-Epoch: 28 model2-Train Loss: 0.0914 model2-Val Loss: 0.0935 model2-Train AUC: 0.9407 model2-Val AUC: 0.9416 TIME:7.61
+model-Epoch: 28 model-Train Loss: 0.1079 model-Val Loss: 0.1095 model-Acc: 0.8513 model-Pre: 0.8307 model-Recall: 0.8793 model-F1: 0.8543 model-Train AUC: 0.9308 model-Val AUC: 0.9268 Time: 7.79
+ ***************************************************************************************************************
+model2-Epoch: 29 model2-Train Loss: 0.0921 model2-Val Loss: 0.0926 model2-Train AUC: 0.9407 model2-Val AUC: 0.9422 TIME:7.56
+model-Epoch: 29 model-Train Loss: 0.1076 model-Val Loss: 0.1071 model-Acc: 0.8596 model-Pre: 0.8837 model-Recall: 0.8254 model-F1: 0.8536 model-Train AUC: 0.9308 model-Val AUC: 0.9275 Time: 7.73
+ ***************************************************************************************************************
+model2-Epoch: 30 model2-Train Loss: 0.0912 model2-Val Loss: 0.0924 model2-Train AUC: 0.9418 model2-Val AUC: 0.9413 TIME:7.60
+model-Epoch: 30 model-Train Loss: 0.1058 model-Val Loss: 0.1069 model-Acc: 0.8564 model-Pre: 0.8844 model-Recall: 0.8171 model-F1: 0.8494 model-Train AUC: 0.9321 model-Val AUC: 0.9284 Time: 7.78
+ ***************************************************************************************************************
+model2-Epoch: 31 model2-Train Loss: 0.0903 model2-Val Loss: 0.0925 model2-Train AUC: 0.9421 model2-Val AUC: 0.9421 TIME:7.58
+model-Epoch: 31 model-Train Loss: 0.1047 model-Val Loss: 0.1058 model-Acc: 0.8605 model-Pre: 0.8583 model-Recall: 0.8607 model-F1: 0.8595 model-Train AUC: 0.9334 model-Val AUC: 0.9290 Time: 7.75
+ ***************************************************************************************************************
+model2-Epoch: 32 model2-Train Loss: 0.0907 model2-Val Loss: 0.0921 model2-Train AUC: 0.9419 model2-Val AUC: 0.9424 TIME:7.59
+model-Epoch: 32 model-Train Loss: 0.1256 model-Val Loss: 0.1158 model-Acc: 0.8430 model-Pre: 0.8007 model-Recall: 0.9099 model-F1: 0.8518 model-Train AUC: 0.9347 model-Val AUC: 0.9286 Time: 7.77
+ ***************************************************************************************************************
+model2-Epoch: 33 model2-Train Loss: 0.0911 model2-Val Loss: 0.0923 model2-Train AUC: 0.9412 model2-Val AUC: 0.9421 TIME:7.51
+model-Epoch: 33 model-Train Loss: 0.1056 model-Val Loss: 0.1095 model-Acc: 0.8517 model-Pre: 0.8257 model-Recall: 0.8886 model-F1: 0.8560 model-Train AUC: 0.9336 model-Val AUC: 0.9286 Time: 7.69
+ ***************************************************************************************************************
+model2-Epoch: 34 model2-Train Loss: 0.0904 model2-Val Loss: 0.0910 model2-Train AUC: 0.9426 model2-Val AUC: 0.9426 TIME:7.60
+model-Epoch: 34 model-Train Loss: 0.1055 model-Val Loss: 0.1053 model-Acc: 0.8628 model-Pre: 0.8583 model-Recall: 0.8663 model-F1: 0.8623 model-Train AUC: 0.9349 model-Val AUC: 0.9303 Time: 7.78
+ ***************************************************************************************************************
+model2-Epoch: 35 model2-Train Loss: 0.0896 model2-Val Loss: 0.0917 model2-Train AUC: 0.9431 model2-Val AUC: 0.9423 TIME:7.61
+model-Epoch: 35 model-Train Loss: 0.1033 model-Val Loss: 0.1042 model-Acc: 0.8660 model-Pre: 0.8701 model-Recall: 0.8579 model-F1: 0.8640 model-Train AUC: 0.9352 model-Val AUC: 0.9306 Time: 7.79
+ ***************************************************************************************************************
+model2-Epoch: 36 model2-Train Loss: 0.0898 model2-Val Loss: 0.0918 model2-Train AUC: 0.9421 model2-Val AUC: 0.9427 TIME:7.50
+model-Epoch: 36 model-Train Loss: 0.1015 model-Val Loss: 0.1036 model-Acc: 0.8637 model-Pre: 0.8751 model-Recall: 0.8459 model-F1: 0.8602 model-Train AUC: 0.9361 model-Val AUC: 0.9314 Time: 7.68
+ ***************************************************************************************************************
+model2-Epoch: 37 model2-Train Loss: 0.0888 model2-Val Loss: 0.0892 model2-Train AUC: 0.9437 model2-Val AUC: 0.9449 TIME:7.58
+model-Epoch: 37 model-Train Loss: 0.1006 model-Val Loss: 0.1032 model-Acc: 0.8637 model-Pre: 0.8847 model-Recall: 0.8338 model-F1: 0.8585 model-Train AUC: 0.9371 model-Val AUC: 0.9322 Time: 7.76
+ ***************************************************************************************************************
+model2-Epoch: 38 model2-Train Loss: 0.0892 model2-Val Loss: 0.0907 model2-Train AUC: 0.9434 model2-Val AUC: 0.9433 TIME:7.71
+model-Epoch: 38 model-Train Loss: 0.1129 model-Val Loss: 0.1395 model-Acc: 0.7933 model-Pre: 0.9361 model-Recall: 0.6258 model-F1: 0.7501 model-Train AUC: 0.9374 model-Val AUC: 0.9330 Time: 7.89
+ ***************************************************************************************************************
+model2-Epoch: 39 model2-Train Loss: 0.0876 model2-Val Loss: 0.0898 model2-Train AUC: 0.9451 model2-Val AUC: 0.9434 TIME:7.52
+model-Epoch: 39 model-Train Loss: 0.1137 model-Val Loss: 0.1082 model-Acc: 0.8522 model-Pre: 0.8913 model-Recall: 0.7994 model-F1: 0.8429 model-Train AUC: 0.9325 model-Val AUC: 0.9299 Time: 7.70
+ ***************************************************************************************************************
+model2-Epoch: 40 model2-Train Loss: 0.0888 model2-Val Loss: 0.0920 model2-Train AUC: 0.9438 model2-Val AUC: 0.9422 TIME:7.56
+model-Epoch: 40 model-Train Loss: 0.1030 model-Val Loss: 0.1074 model-Acc: 0.8531 model-Pre: 0.9075 model-Recall: 0.7837 model-F1: 0.8411 model-Train AUC: 0.9372 model-Val AUC: 0.9329 Time: 7.74
+ ***************************************************************************************************************
+model2-Epoch: 41 model2-Train Loss: 0.0875 model2-Val Loss: 0.0890 model2-Train AUC: 0.9448 model2-Val AUC: 0.9451 TIME:7.55
+model-Epoch: 41 model-Train Loss: 0.1016 model-Val Loss: 0.1031 model-Acc: 0.8651 model-Pre: 0.8643 model-Recall: 0.8635 model-F1: 0.8639 model-Train AUC: 0.9374 model-Val AUC: 0.9322 Time: 7.73
+ ***************************************************************************************************************
+model2-Epoch: 42 model2-Train Loss: 0.0878 model2-Val Loss: 0.0895 model2-Train AUC: 0.9444 model2-Val AUC: 0.9440 TIME:7.51
+model-Epoch: 42 model-Train Loss: 0.1004 model-Val Loss: 0.1023 model-Acc: 0.8665 model-Pre: 0.8751 model-Recall: 0.8524 model-F1: 0.8636 model-Train AUC: 0.9376 model-Val AUC: 0.9327 Time: 7.69
+ ***************************************************************************************************************
+model2-Epoch: 43 model2-Train Loss: 0.0881 model2-Val Loss: 0.0883 model2-Train AUC: 0.9438 model2-Val AUC: 0.9446 TIME:7.55
+model-Epoch: 43 model-Train Loss: 0.0990 model-Val Loss: 0.1016 model-Acc: 0.8660 model-Pre: 0.8680 model-Recall: 0.8607 model-F1: 0.8643 model-Train AUC: 0.9389 model-Val AUC: 0.9334 Time: 7.73
+ ***************************************************************************************************************
+model2-Epoch: 44 model2-Train Loss: 0.0872 model2-Val Loss: 0.0885 model2-Train AUC: 0.9453 model2-Val AUC: 0.9462 TIME:7.55
+model-Epoch: 44 model-Train Loss: 0.0981 model-Val Loss: 0.1008 model-Acc: 0.8669 model-Pre: 0.8689 model-Recall: 0.8617 model-F1: 0.8653 model-Train AUC: 0.9397 model-Val AUC: 0.9341 Time: 7.73
+ ***************************************************************************************************************
+model2-Epoch: 45 model2-Train Loss: 0.0874 model2-Val Loss: 0.0899 model2-Train AUC: 0.9450 model2-Val AUC: 0.9443 TIME:7.62
+model-Epoch: 45 model-Train Loss: 0.0973 model-Val Loss: 0.1002 model-Acc: 0.8679 model-Pre: 0.8755 model-Recall: 0.8552 model-F1: 0.8652 model-Train AUC: 0.9406 model-Val AUC: 0.9348 Time: 7.80
+ ***************************************************************************************************************
+model2-Epoch: 46 model2-Train Loss: 0.0867 model2-Val Loss: 0.0881 model2-Train AUC: 0.9452 model2-Val AUC: 0.9462 TIME:7.61
+model-Epoch: 46 model-Train Loss: 0.0965 model-Val Loss: 0.0995 model-Acc: 0.8711 model-Pre: 0.8770 model-Recall: 0.8607 model-F1: 0.8688 model-Train AUC: 0.9414 model-Val AUC: 0.9354 Time: 7.79
+ ***************************************************************************************************************
+model2-Epoch: 47 model2-Train Loss: 0.0873 model2-Val Loss: 0.0877 model2-Train AUC: 0.9449 model2-Val AUC: 0.9459 TIME:7.69
+model-Epoch: 47 model-Train Loss: 0.1032 model-Val Loss: 0.1002 model-Acc: 0.8660 model-Pre: 0.8606 model-Recall: 0.8709 model-F1: 0.8657 model-Train AUC: 0.9403 model-Val AUC: 0.9345 Time: 7.86
+ ***************************************************************************************************************
+model2-Epoch: 48 model2-Train Loss: 0.0874 model2-Val Loss: 0.0891 model2-Train AUC: 0.9451 model2-Val AUC: 0.9448 TIME:7.53
+model-Epoch: 48 model-Train Loss: 0.0975 model-Val Loss: 0.1046 model-Acc: 0.8550 model-Pre: 0.9088 model-Recall: 0.7864 model-F1: 0.8432 model-Train AUC: 0.9414 model-Val AUC: 0.9356 Time: 7.71
+ ***************************************************************************************************************
+model2-Epoch: 49 model2-Train Loss: 0.0865 model2-Val Loss: 0.0886 model2-Train AUC: 0.9458 model2-Val AUC: 0.9451 TIME:7.54
+model-Epoch: 49 model-Train Loss: 0.0980 model-Val Loss: 0.0994 model-Acc: 0.8702 model-Pre: 0.8677 model-Recall: 0.8709 model-F1: 0.8693 model-Train AUC: 0.9419 model-Val AUC: 0.9353 Time: 7.71
+ ***************************************************************************************************************
+model2-Epoch: 50 model2-Train Loss: 0.0866 model2-Val Loss: 0.0875 model2-Train AUC: 0.9451 model2-Val AUC: 0.9459 TIME:7.51
+model-Epoch: 50 model-Train Loss: 0.0958 model-Val Loss: 0.0989 model-Acc: 0.8697 model-Pre: 0.8683 model-Recall: 0.8691 model-F1: 0.8687 model-Train AUC: 0.9423 model-Val AUC: 0.9359 Time: 7.69
+ ***************************************************************************************************************
+model2-Epoch: 51 model2-Train Loss: 0.0858 model2-Val Loss: 0.0864 model2-Train AUC: 0.9461 model2-Val AUC: 0.9472 TIME:7.46
+model-Epoch: 51 model-Train Loss: 0.0954 model-Val Loss: 0.0985 model-Acc: 0.8679 model-Pre: 0.8664 model-Recall: 0.8672 model-F1: 0.8668 model-Train AUC: 0.9427 model-Val AUC: 0.9362 Time: 7.64
+ ***************************************************************************************************************
+model2-Epoch: 52 model2-Train Loss: 0.0871 model2-Val Loss: 0.0873 model2-Train AUC: 0.9456 model2-Val AUC: 0.9460 TIME:7.49
+model-Epoch: 52 model-Train Loss: 0.0947 model-Val Loss: 0.0982 model-Acc: 0.8688 model-Pre: 0.8646 model-Recall: 0.8719 model-F1: 0.8682 model-Train AUC: 0.9430 model-Val AUC: 0.9365 Time: 7.67
+ ***************************************************************************************************************
+model2-Epoch: 53 model2-Train Loss: 0.0857 model2-Val Loss: 0.0873 model2-Train AUC: 0.9465 model2-Val AUC: 0.9455 TIME:7.63
+model-Epoch: 53 model-Train Loss: 0.1057 model-Val Loss: 0.1086 model-Acc: 0.8554 model-Pre: 0.8099 model-Recall: 0.9257 model-F1: 0.8640 model-Train AUC: 0.9434 model-Val AUC: 0.9360 Time: 7.81
+ ***************************************************************************************************************
+model2-Epoch: 54 model2-Train Loss: 0.0853 model2-Val Loss: 0.0870 model2-Train AUC: 0.9462 model2-Val AUC: 0.9468 TIME:7.58
+model-Epoch: 54 model-Train Loss: 0.0962 model-Val Loss: 0.0979 model-Acc: 0.8715 model-Pre: 0.8722 model-Recall: 0.8682 model-F1: 0.8702 model-Train AUC: 0.9432 model-Val AUC: 0.9367 Time: 7.76
+ ***************************************************************************************************************
+model2-Epoch: 55 model2-Train Loss: 0.0852 model2-Val Loss: 0.0870 model2-Train AUC: 0.9469 model2-Val AUC: 0.9468 TIME:7.58
+model-Epoch: 55 model-Train Loss: 0.0947 model-Val Loss: 0.0990 model-Acc: 0.8679 model-Pre: 0.8888 model-Recall: 0.8384 model-F1: 0.8629 model-Train AUC: 0.9433 model-Val AUC: 0.9368 Time: 7.76
+ ***************************************************************************************************************
+model2-Epoch: 56 model2-Train Loss: 0.0859 model2-Val Loss: 0.0872 model2-Train AUC: 0.9465 model2-Val AUC: 0.9467 TIME:7.58
+model-Epoch: 56 model-Train Loss: 0.0941 model-Val Loss: 0.0980 model-Acc: 0.8702 model-Pre: 0.8818 model-Recall: 0.8524 model-F1: 0.8669 model-Train AUC: 0.9437 model-Val AUC: 0.9371 Time: 7.76
+ ***************************************************************************************************************
+model2-Epoch: 57 model2-Train Loss: 0.0849 model2-Val Loss: 0.0863 model2-Train AUC: 0.9474 model2-Val AUC: 0.9475 TIME:7.51
+model-Epoch: 57 model-Train Loss: 0.0945 model-Val Loss: 0.0983 model-Acc: 0.8683 model-Pre: 0.8541 model-Recall: 0.8858 model-F1: 0.8696 model-Train AUC: 0.9439 model-Val AUC: 0.9371 Time: 7.69
+ ***************************************************************************************************************
+model2-Epoch: 58 model2-Train Loss: 0.0853 model2-Val Loss: 0.0864 model2-Train AUC: 0.9469 model2-Val AUC: 0.9464 TIME:8.05
+model-Epoch: 58 model-Train Loss: 0.0940 model-Val Loss: 0.0973 model-Acc: 0.8692 model-Pre: 0.8661 model-Recall: 0.8709 model-F1: 0.8685 model-Train AUC: 0.9440 model-Val AUC: 0.9372 Time: 8.23
+ ***************************************************************************************************************
+model2-Epoch: 59 model2-Train Loss: 0.0845 model2-Val Loss: 0.0861 model2-Train AUC: 0.9471 model2-Val AUC: 0.9476 TIME:7.60
+model-Epoch: 59 model-Train Loss: 0.1027 model-Val Loss: 0.0998 model-Acc: 0.8669 model-Pre: 0.8932 model-Recall: 0.8310 model-F1: 0.8610 model-Train AUC: 0.9432 model-Val AUC: 0.9368 Time: 7.78
+ ***************************************************************************************************************
+model2-Epoch: 60 model2-Train Loss: 0.0844 model2-Val Loss: 0.0870 model2-Train AUC: 0.9476 model2-Val AUC: 0.9460 TIME:7.53
+model-Epoch: 60 model-Train Loss: 0.0937 model-Val Loss: 0.0978 model-Acc: 0.8683 model-Pre: 0.8573 model-Recall: 0.8812 model-F1: 0.8690 model-Train AUC: 0.9440 model-Val AUC: 0.9373 Time: 7.71
+ ***************************************************************************************************************
+model2-Epoch: 61 model2-Train Loss: 0.0840 model2-Val Loss: 0.0867 model2-Train AUC: 0.9479 model2-Val AUC: 0.9465 TIME:7.58
+model-Epoch: 61 model-Train Loss: 0.0945 model-Val Loss: 0.0977 model-Acc: 0.8692 model-Pre: 0.8582 model-Recall: 0.8821 model-F1: 0.8700 model-Train AUC: 0.9443 model-Val AUC: 0.9374 Time: 7.76
+ ***************************************************************************************************************
+model2-Epoch: 62 model2-Train Loss: 0.0844 model2-Val Loss: 0.0866 model2-Train AUC: 0.9480 model2-Val AUC: 0.9475 TIME:7.52
+model-Epoch: 62 model-Train Loss: 0.0934 model-Val Loss: 0.0970 model-Acc: 0.8711 model-Pre: 0.8700 model-Recall: 0.8700 model-F1: 0.8700 model-Train AUC: 0.9444 model-Val AUC: 0.9375 Time: 7.70
+ ***************************************************************************************************************
+model2-Epoch: 63 model2-Train Loss: 0.0847 model2-Val Loss: 0.0850 model2-Train AUC: 0.9476 model2-Val AUC: 0.9480 TIME:7.57
+model-Epoch: 63 model-Train Loss: 0.0934 model-Val Loss: 0.0978 model-Acc: 0.8683 model-Pre: 0.8522 model-Recall: 0.8886 model-F1: 0.8700 model-Train AUC: 0.9445 model-Val AUC: 0.9375 Time: 7.75
+ ***************************************************************************************************************
+model2-Epoch: 64 model2-Train Loss: 0.0841 model2-Val Loss: 0.0863 model2-Train AUC: 0.9473 model2-Val AUC: 0.9469 TIME:7.52
+model-Epoch: 64 model-Train Loss: 0.0936 model-Val Loss: 0.0988 model-Acc: 0.8674 model-Pre: 0.8910 model-Recall: 0.8347 model-F1: 0.8619 model-Train AUC: 0.9446 model-Val AUC: 0.9376 Time: 7.70
+ ***************************************************************************************************************
+model2-Epoch: 65 model2-Train Loss: 0.0837 model2-Val Loss: 0.0861 model2-Train AUC: 0.9486 model2-Val AUC: 0.9469 TIME:7.61
+model-Epoch: 65 model-Train Loss: 0.0950 model-Val Loss: 0.0972 model-Acc: 0.8692 model-Pre: 0.8588 model-Recall: 0.8812 model-F1: 0.8698 model-Train AUC: 0.9447 model-Val AUC: 0.9376 Time: 7.78
+ ***************************************************************************************************************
+model2-Epoch: 66 model2-Train Loss: 0.0837 model2-Val Loss: 0.0852 model2-Train AUC: 0.9484 model2-Val AUC: 0.9479 TIME:7.60
+model-Epoch: 66 model-Train Loss: 0.0938 model-Val Loss: 0.0971 model-Acc: 0.8720 model-Pre: 0.8629 model-Recall: 0.8821 model-F1: 0.8724 model-Train AUC: 0.9447 model-Val AUC: 0.9376 Time: 7.77
+ ***************************************************************************************************************
+model2-Epoch: 67 model2-Train Loss: 0.0841 model2-Val Loss: 0.0855 model2-Train AUC: 0.9479 model2-Val AUC: 0.9476 TIME:7.60
+model-Epoch: 67 model-Train Loss: 0.0930 model-Val Loss: 0.0971 model-Acc: 0.8697 model-Pre: 0.8583 model-Recall: 0.8830 model-F1: 0.8705 model-Train AUC: 0.9449 model-Val AUC: 0.9377 Time: 7.78
+ ***************************************************************************************************************
+model2-Epoch: 68 model2-Train Loss: 0.0840 model2-Val Loss: 0.0855 model2-Train AUC: 0.9479 model2-Val AUC: 0.9478 TIME:7.58
+model-Epoch: 68 model-Train Loss: 0.0928 model-Val Loss: 0.0969 model-Acc: 0.8679 model-Pre: 0.8748 model-Recall: 0.8561 model-F1: 0.8653 model-Train AUC: 0.9449 model-Val AUC: 0.9378 Time: 7.77
+ ***************************************************************************************************************
+model2-Epoch: 69 model2-Train Loss: 0.0844 model2-Val Loss: 0.0855 model2-Train AUC: 0.9475 model2-Val AUC: 0.9477 TIME:7.66
+model-Epoch: 69 model-Train Loss: 0.0931 model-Val Loss: 0.0979 model-Acc: 0.8669 model-Pre: 0.8487 model-Recall: 0.8904 model-F1: 0.8691 model-Train AUC: 0.9451 model-Val AUC: 0.9378 Time: 7.84
+ ***************************************************************************************************************
+model2-Epoch: 70 model2-Train Loss: 0.0836 model2-Val Loss: 0.0850 model2-Train AUC: 0.9488 model2-Val AUC: 0.9484 TIME:7.56
+model-Epoch: 70 model-Train Loss: 0.0969 model-Val Loss: 0.0995 model-Acc: 0.8646 model-Pre: 0.8919 model-Recall: 0.8273 model-F1: 0.8584 model-Train AUC: 0.9446 model-Val AUC: 0.9378 Time: 7.73
+ ***************************************************************************************************************
+Fold: 3 model-Test Acc: 0.8646 model-Test Pre: 0.8919 model-Test Recall: 0.8273 model-Test F1: 0.8584 model-Test AUC: 0.9378
+
+Fold: 3 model2-Test Acc: 0.8890 model2-Test Pre: 0.8778 model2-Test Recall: 0.9080 model2-Test F1: 0.8926 model2-Test AUC: 0.9521
+------------------------------------------------------------------------------------------------------
+Training for Fold  4
+## total Training edges: 47054
+## total Testing edges: 11762
+model2-Epoch: 1 model2-Train Loss: 0.1683 model2-Val Loss: 0.1536 model2-Train AUC: 0.8655 model2-Val AUC: 0.8746 TIME:7.65
+model-Epoch: 1 model-Train Loss: 0.1573 model-Val Loss: 0.1828 model-Acc: 0.7090 model-Pre: 0.9813 model-Recall: 0.4316 model-F1: 0.5995 model-Train AUC: 0.9110 model-Val AUC: 0.9190 Time: 7.83
+ ***************************************************************************************************************
+model2-Epoch: 2 model2-Train Loss: 0.1313 model2-Val Loss: 0.1237 model2-Train AUC: 0.8911 model2-Val AUC: 0.8972 TIME:7.57
+model-Epoch: 2 model-Train Loss: 0.1348 model-Val Loss: 0.1216 model-Acc: 0.8315 model-Pre: 0.8265 model-Recall: 0.8431 model-F1: 0.8347 model-Train AUC: 0.9104 model-Val AUC: 0.9156 Time: 7.75
+ ***************************************************************************************************************
+model2-Epoch: 3 model2-Train Loss: 0.1247 model2-Val Loss: 0.1208 model2-Train AUC: 0.9072 model2-Val AUC: 0.9093 TIME:7.53
+model-Epoch: 3 model-Train Loss: 0.1199 model-Val Loss: 0.1198 model-Acc: 0.8315 model-Pre: 0.8219 model-Recall: 0.8504 model-F1: 0.8359 model-Train AUC: 0.9120 model-Val AUC: 0.9165 Time: 7.71
+ ***************************************************************************************************************
+model2-Epoch: 4 model2-Train Loss: 0.1185 model2-Val Loss: 0.1157 model2-Train AUC: 0.9123 model2-Val AUC: 0.9139 TIME:7.49
+model-Epoch: 4 model-Train Loss: 0.1194 model-Val Loss: 0.1161 model-Acc: 0.8347 model-Pre: 0.8493 model-Recall: 0.8175 model-F1: 0.8331 model-Train AUC: 0.9134 model-Val AUC: 0.9184 Time: 7.67
+ ***************************************************************************************************************
+model2-Epoch: 5 model2-Train Loss: 0.1147 model2-Val Loss: 0.1116 model2-Train AUC: 0.9167 model2-Val AUC: 0.9193 TIME:7.50
+model-Epoch: 5 model-Train Loss: 0.1176 model-Val Loss: 0.1144 model-Acc: 0.8356 model-Pre: 0.8502 model-Recall: 0.8184 model-F1: 0.8340 model-Train AUC: 0.9143 model-Val AUC: 0.9197 Time: 7.68
+ ***************************************************************************************************************
+model2-Epoch: 6 model2-Train Loss: 0.1151 model2-Val Loss: 0.1077 model2-Train AUC: 0.9182 model2-Val AUC: 0.9237 TIME:7.72
+model-Epoch: 6 model-Train Loss: 0.1172 model-Val Loss: 0.1135 model-Acc: 0.8398 model-Pre: 0.8645 model-Recall: 0.8093 model-F1: 0.8360 model-Train AUC: 0.9148 model-Val AUC: 0.9209 Time: 7.90
+ ***************************************************************************************************************
+model2-Epoch: 7 model2-Train Loss: 0.1115 model2-Val Loss: 0.1084 model2-Train AUC: 0.9210 model2-Val AUC: 0.9247 TIME:7.65
+model-Epoch: 7 model-Train Loss: 0.1167 model-Val Loss: 0.1130 model-Acc: 0.8393 model-Pre: 0.8630 model-Recall: 0.8102 model-F1: 0.8358 model-Train AUC: 0.9152 model-Val AUC: 0.9214 Time: 7.83
+ ***************************************************************************************************************
+model2-Epoch: 8 model2-Train Loss: 0.1099 model2-Val Loss: 0.1079 model2-Train AUC: 0.9228 model2-Val AUC: 0.9248 TIME:7.50
+model-Epoch: 8 model-Train Loss: 0.1162 model-Val Loss: 0.1127 model-Acc: 0.8398 model-Pre: 0.8645 model-Recall: 0.8093 model-F1: 0.8360 model-Train AUC: 0.9157 model-Val AUC: 0.9219 Time: 7.67
+ ***************************************************************************************************************
+model2-Epoch: 9 model2-Train Loss: 0.1090 model2-Val Loss: 0.1031 model2-Train AUC: 0.9237 model2-Val AUC: 0.9295 TIME:7.56
+model-Epoch: 9 model-Train Loss: 0.1158 model-Val Loss: 0.1123 model-Acc: 0.8412 model-Pre: 0.8700 model-Recall: 0.8057 model-F1: 0.8366 model-Train AUC: 0.9162 model-Val AUC: 0.9224 Time: 7.74
+ ***************************************************************************************************************
+model2-Epoch: 10 model2-Train Loss: 0.1088 model2-Val Loss: 0.1053 model2-Train AUC: 0.9244 model2-Val AUC: 0.9281 TIME:7.58
+model-Epoch: 10 model-Train Loss: 0.1153 model-Val Loss: 0.1118 model-Acc: 0.8412 model-Pre: 0.8656 model-Recall: 0.8111 model-F1: 0.8375 model-Train AUC: 0.9168 model-Val AUC: 0.9230 Time: 7.75
+ ***************************************************************************************************************
+model2-Epoch: 11 model2-Train Loss: 0.1068 model2-Val Loss: 0.1036 model2-Train AUC: 0.9269 model2-Val AUC: 0.9296 TIME:7.56
+model-Epoch: 11 model-Train Loss: 0.1149 model-Val Loss: 0.1116 model-Acc: 0.8435 model-Pre: 0.8750 model-Recall: 0.8047 model-F1: 0.8384 model-Train AUC: 0.9175 model-Val AUC: 0.9236 Time: 7.74
+ ***************************************************************************************************************
+model2-Epoch: 12 model2-Train Loss: 0.1078 model2-Val Loss: 0.1002 model2-Train AUC: 0.9252 model2-Val AUC: 0.9316 TIME:7.56
+model-Epoch: 12 model-Train Loss: 0.1142 model-Val Loss: 0.1114 model-Acc: 0.8430 model-Pre: 0.8809 model-Recall: 0.7965 model-F1: 0.8366 model-Train AUC: 0.9184 model-Val AUC: 0.9245 Time: 7.74
+ ***************************************************************************************************************
+model2-Epoch: 13 model2-Train Loss: 0.1072 model2-Val Loss: 0.1005 model2-Train AUC: 0.9254 model2-Val AUC: 0.9322 TIME:7.56
+model-Epoch: 13 model-Train Loss: 0.1134 model-Val Loss: 0.1104 model-Acc: 0.8448 model-Pre: 0.8754 model-Recall: 0.8075 model-F1: 0.8401 model-Train AUC: 0.9194 model-Val AUC: 0.9253 Time: 7.74
+ ***************************************************************************************************************
+model2-Epoch: 14 model2-Train Loss: 0.1037 model2-Val Loss: 0.1005 model2-Train AUC: 0.9293 model2-Val AUC: 0.9316 TIME:7.62
+model-Epoch: 14 model-Train Loss: 0.1128 model-Val Loss: 0.1094 model-Acc: 0.8471 model-Pre: 0.8652 model-Recall: 0.8257 model-F1: 0.8450 model-Train AUC: 0.9205 model-Val AUC: 0.9262 Time: 7.79
+ ***************************************************************************************************************
+model2-Epoch: 15 model2-Train Loss: 0.1037 model2-Val Loss: 0.0992 model2-Train AUC: 0.9279 model2-Val AUC: 0.9336 TIME:7.65
+model-Epoch: 15 model-Train Loss: 0.1160 model-Val Loss: 0.1127 model-Acc: 0.8379 model-Pre: 0.8991 model-Recall: 0.7646 model-F1: 0.8264 model-Train AUC: 0.9215 model-Val AUC: 0.9276 Time: 7.84
+ ***************************************************************************************************************
+model2-Epoch: 16 model2-Train Loss: 0.1033 model2-Val Loss: 0.0992 model2-Train AUC: 0.9288 model2-Val AUC: 0.9334 TIME:7.57
+model-Epoch: 16 model-Train Loss: 0.1111 model-Val Loss: 0.1086 model-Acc: 0.8467 model-Pre: 0.8536 model-Recall: 0.8403 model-F1: 0.8469 model-Train AUC: 0.9227 model-Val AUC: 0.9280 Time: 7.75
+ ***************************************************************************************************************
+model2-Epoch: 17 model2-Train Loss: 0.1021 model2-Val Loss: 0.1002 model2-Train AUC: 0.9313 model2-Val AUC: 0.9323 TIME:7.59
+model-Epoch: 17 model-Train Loss: 0.1103 model-Val Loss: 0.1072 model-Acc: 0.8499 model-Pre: 0.8760 model-Recall: 0.8184 model-F1: 0.8462 model-Train AUC: 0.9239 model-Val AUC: 0.9293 Time: 7.77
+ ***************************************************************************************************************
+model2-Epoch: 18 model2-Train Loss: 0.1026 model2-Val Loss: 0.0956 model2-Train AUC: 0.9300 model2-Val AUC: 0.9377 TIME:7.67
+model-Epoch: 18 model-Train Loss: 0.1098 model-Val Loss: 0.1066 model-Acc: 0.8499 model-Pre: 0.8571 model-Recall: 0.8431 model-F1: 0.8500 model-Train AUC: 0.9252 model-Val AUC: 0.9303 Time: 7.84
+ ***************************************************************************************************************
+model2-Epoch: 19 model2-Train Loss: 0.1017 model2-Val Loss: 0.0974 model2-Train AUC: 0.9320 model2-Val AUC: 0.9365 TIME:7.53
+model-Epoch: 19 model-Train Loss: 0.1092 model-Val Loss: 0.1061 model-Acc: 0.8476 model-Pre: 0.8487 model-Recall: 0.8495 model-F1: 0.8491 model-Train AUC: 0.9266 model-Val AUC: 0.9315 Time: 7.71
+ ***************************************************************************************************************
+model2-Epoch: 20 model2-Train Loss: 0.1001 model2-Val Loss: 0.0961 model2-Train AUC: 0.9323 model2-Val AUC: 0.9369 TIME:7.58
+model-Epoch: 20 model-Train Loss: 0.1072 model-Val Loss: 0.1042 model-Acc: 0.8531 model-Pre: 0.8711 model-Recall: 0.8321 model-F1: 0.8511 model-Train AUC: 0.9278 model-Val AUC: 0.9331 Time: 7.76
+ ***************************************************************************************************************
+model2-Epoch: 21 model2-Train Loss: 0.1010 model2-Val Loss: 0.0972 model2-Train AUC: 0.9319 model2-Val AUC: 0.9354 TIME:7.57
+model-Epoch: 21 model-Train Loss: 0.1292 model-Val Loss: 0.1316 model-Acc: 0.8094 model-Pre: 0.7485 model-Recall: 0.9370 model-F1: 0.8323 model-Train AUC: 0.9298 model-Val AUC: 0.9319 Time: 7.75
+ ***************************************************************************************************************
+model2-Epoch: 22 model2-Train Loss: 0.1000 model2-Val Loss: 0.0952 model2-Train AUC: 0.9327 model2-Val AUC: 0.9375 TIME:7.63
+model-Epoch: 22 model-Train Loss: 0.1155 model-Val Loss: 0.1064 model-Acc: 0.8522 model-Pre: 0.8910 model-Recall: 0.8057 model-F1: 0.8462 model-Train AUC: 0.9282 model-Val AUC: 0.9325 Time: 7.80
+ ***************************************************************************************************************
+model2-Epoch: 23 model2-Train Loss: 0.0995 model2-Val Loss: 0.0955 model2-Train AUC: 0.9330 model2-Val AUC: 0.9383 TIME:7.56
+model-Epoch: 23 model-Train Loss: 0.1093 model-Val Loss: 0.1037 model-Acc: 0.8550 model-Pre: 0.8660 model-Recall: 0.8431 model-F1: 0.8544 model-Train AUC: 0.9288 model-Val AUC: 0.9341 Time: 7.74
+ ***************************************************************************************************************
+model2-Epoch: 24 model2-Train Loss: 0.0976 model2-Val Loss: 0.0955 model2-Train AUC: 0.9351 model2-Val AUC: 0.9373 TIME:7.54
+model-Epoch: 24 model-Train Loss: 0.1067 model-Val Loss: 0.1029 model-Acc: 0.8568 model-Pre: 0.8735 model-Recall: 0.8376 model-F1: 0.8551 model-Train AUC: 0.9300 model-Val AUC: 0.9347 Time: 7.72
+ ***************************************************************************************************************
+model2-Epoch: 25 model2-Train Loss: 0.0971 model2-Val Loss: 0.0941 model2-Train AUC: 0.9353 model2-Val AUC: 0.9393 TIME:7.56
+model-Epoch: 25 model-Train Loss: 0.1045 model-Val Loss: 0.1020 model-Acc: 0.8545 model-Pre: 0.8861 model-Recall: 0.8166 model-F1: 0.8500 model-Train AUC: 0.9310 model-Val AUC: 0.9365 Time: 7.74
+ ***************************************************************************************************************
+model2-Epoch: 26 model2-Train Loss: 0.0968 model2-Val Loss: 0.0954 model2-Train AUC: 0.9364 model2-Val AUC: 0.9383 TIME:7.58
+model-Epoch: 26 model-Train Loss: 0.1037 model-Val Loss: 0.1008 model-Acc: 0.8587 model-Pre: 0.8768 model-Recall: 0.8376 model-F1: 0.8567 model-Train AUC: 0.9321 model-Val AUC: 0.9373 Time: 7.76
+ ***************************************************************************************************************
+model2-Epoch: 27 model2-Train Loss: 0.0967 model2-Val Loss: 0.0931 model2-Train AUC: 0.9363 model2-Val AUC: 0.9400 TIME:7.53
+model-Epoch: 27 model-Train Loss: 0.1026 model-Val Loss: 0.0999 model-Acc: 0.8587 model-Pre: 0.8826 model-Recall: 0.8303 model-F1: 0.8557 model-Train AUC: 0.9332 model-Val AUC: 0.9386 Time: 7.71
+ ***************************************************************************************************************
+model2-Epoch: 28 model2-Train Loss: 0.0962 model2-Val Loss: 0.0919 model2-Train AUC: 0.9369 model2-Val AUC: 0.9408 TIME:7.54
+model-Epoch: 28 model-Train Loss: 0.1063 model-Val Loss: 0.1076 model-Acc: 0.8435 model-Pre: 0.9238 model-Recall: 0.7518 model-F1: 0.8290 model-Train AUC: 0.9339 model-Val AUC: 0.9404 Time: 7.72
+ ***************************************************************************************************************
+model2-Epoch: 29 model2-Train Loss: 0.0950 model2-Val Loss: 0.0938 model2-Train AUC: 0.9374 model2-Val AUC: 0.9393 TIME:7.50
+model-Epoch: 29 model-Train Loss: 0.1039 model-Val Loss: 0.0988 model-Acc: 0.8633 model-Pre: 0.8808 model-Recall: 0.8431 model-F1: 0.8615 model-Train AUC: 0.9342 model-Val AUC: 0.9398 Time: 7.68
+ ***************************************************************************************************************
+model2-Epoch: 30 model2-Train Loss: 0.0956 model2-Val Loss: 0.0919 model2-Train AUC: 0.9373 model2-Val AUC: 0.9417 TIME:7.53
+model-Epoch: 30 model-Train Loss: 0.1019 model-Val Loss: 0.0985 model-Acc: 0.8651 model-Pre: 0.8756 model-Recall: 0.8540 model-F1: 0.8647 model-Train AUC: 0.9358 model-Val AUC: 0.9401 Time: 7.72
+ ***************************************************************************************************************
+model2-Epoch: 31 model2-Train Loss: 0.0960 model2-Val Loss: 0.0939 model2-Train AUC: 0.9368 model2-Val AUC: 0.9392 TIME:7.47
+model-Epoch: 31 model-Train Loss: 0.1001 model-Val Loss: 0.0979 model-Acc: 0.8587 model-Pre: 0.8910 model-Recall: 0.8203 model-F1: 0.8542 model-Train AUC: 0.9363 model-Val AUC: 0.9417 Time: 7.65
+ ***************************************************************************************************************
+model2-Epoch: 32 model2-Train Loss: 0.0942 model2-Val Loss: 0.0928 model2-Train AUC: 0.9385 model2-Val AUC: 0.9397 TIME:7.59
+model-Epoch: 32 model-Train Loss: 0.1008 model-Val Loss: 0.0997 model-Acc: 0.8610 model-Pre: 0.8434 model-Recall: 0.8896 model-F1: 0.8659 model-Train AUC: 0.9375 model-Val AUC: 0.9416 Time: 7.77
+ ***************************************************************************************************************
+model2-Epoch: 33 model2-Train Loss: 0.0947 model2-Val Loss: 0.0911 model2-Train AUC: 0.9389 model2-Val AUC: 0.9422 TIME:7.56
+model-Epoch: 33 model-Train Loss: 0.0995 model-Val Loss: 0.1005 model-Acc: 0.8596 model-Pre: 0.8412 model-Recall: 0.8896 model-F1: 0.8647 model-Train AUC: 0.9371 model-Val AUC: 0.9410 Time: 7.74
+ ***************************************************************************************************************
+model2-Epoch: 34 model2-Train Loss: 0.0950 model2-Val Loss: 0.0899 model2-Train AUC: 0.9377 model2-Val AUC: 0.9422 TIME:7.47
+model-Epoch: 34 model-Train Loss: 0.0994 model-Val Loss: 0.0964 model-Acc: 0.8683 model-Pre: 0.8835 model-Recall: 0.8513 model-F1: 0.8671 model-Train AUC: 0.9382 model-Val AUC: 0.9425 Time: 7.65
+ ***************************************************************************************************************
+model2-Epoch: 35 model2-Train Loss: 0.0940 model2-Val Loss: 0.0896 model2-Train AUC: 0.9386 model2-Val AUC: 0.9433 TIME:7.50
+model-Epoch: 35 model-Train Loss: 0.0979 model-Val Loss: 0.0960 model-Acc: 0.8660 model-Pre: 0.8935 model-Recall: 0.8339 model-F1: 0.8627 model-Train AUC: 0.9386 model-Val AUC: 0.9436 Time: 7.68
+ ***************************************************************************************************************
+model2-Epoch: 36 model2-Train Loss: 0.0930 model2-Val Loss: 0.0908 model2-Train AUC: 0.9398 model2-Val AUC: 0.9422 TIME:7.50
+model-Epoch: 36 model-Train Loss: 0.0975 model-Val Loss: 0.0958 model-Acc: 0.8633 model-Pre: 0.8629 model-Recall: 0.8668 model-F1: 0.8648 model-Train AUC: 0.9391 model-Val AUC: 0.9437 Time: 7.68
+ ***************************************************************************************************************
+model2-Epoch: 37 model2-Train Loss: 0.0924 model2-Val Loss: 0.0910 model2-Train AUC: 0.9409 model2-Val AUC: 0.9420 TIME:7.55
+model-Epoch: 37 model-Train Loss: 0.0994 model-Val Loss: 0.0993 model-Acc: 0.8633 model-Pre: 0.8520 model-Recall: 0.8823 model-F1: 0.8669 model-Train AUC: 0.9373 model-Val AUC: 0.9415 Time: 7.73
+ ***************************************************************************************************************
+model2-Epoch: 38 model2-Train Loss: 0.0914 model2-Val Loss: 0.0897 model2-Train AUC: 0.9415 model2-Val AUC: 0.9429 TIME:7.53
+model-Epoch: 38 model-Train Loss: 0.0974 model-Val Loss: 0.0965 model-Acc: 0.8628 model-Pre: 0.8982 model-Recall: 0.8212 model-F1: 0.8580 model-Train AUC: 0.9393 model-Val AUC: 0.9443 Time: 7.71
+ ***************************************************************************************************************
+model2-Epoch: 39 model2-Train Loss: 0.0918 model2-Val Loss: 0.0880 model2-Train AUC: 0.9408 model2-Val AUC: 0.9449 TIME:7.61
+model-Epoch: 39 model-Train Loss: 0.0975 model-Val Loss: 0.0948 model-Acc: 0.8651 model-Pre: 0.8728 model-Recall: 0.8577 model-F1: 0.8652 model-Train AUC: 0.9398 model-Val AUC: 0.9444 Time: 7.78
+ ***************************************************************************************************************
+model2-Epoch: 40 model2-Train Loss: 0.0922 model2-Val Loss: 0.0888 model2-Train AUC: 0.9401 model2-Val AUC: 0.9440 TIME:7.65
+model-Epoch: 40 model-Train Loss: 0.0964 model-Val Loss: 0.0947 model-Acc: 0.8669 model-Pre: 0.8899 model-Recall: 0.8403 model-F1: 0.8644 model-Train AUC: 0.9399 model-Val AUC: 0.9448 Time: 7.83
+ ***************************************************************************************************************
+model2-Epoch: 41 model2-Train Loss: 0.0912 model2-Val Loss: 0.0907 model2-Train AUC: 0.9410 model2-Val AUC: 0.9426 TIME:7.60
+model-Epoch: 41 model-Train Loss: 0.0965 model-Val Loss: 0.0948 model-Acc: 0.8646 model-Pre: 0.8639 model-Recall: 0.8686 model-F1: 0.8662 model-Train AUC: 0.9406 model-Val AUC: 0.9450 Time: 7.78
+ ***************************************************************************************************************
+model2-Epoch: 42 model2-Train Loss: 0.0914 model2-Val Loss: 0.0879 model2-Train AUC: 0.9418 model2-Val AUC: 0.9444 TIME:7.64
+model-Epoch: 42 model-Train Loss: 0.0998 model-Val Loss: 0.0949 model-Acc: 0.8669 model-Pre: 0.8740 model-Recall: 0.8604 model-F1: 0.8671 model-Train AUC: 0.9406 model-Val AUC: 0.9444 Time: 7.82
+ ***************************************************************************************************************
+model2-Epoch: 43 model2-Train Loss: 0.0900 model2-Val Loss: 0.0887 model2-Train AUC: 0.9430 model2-Val AUC: 0.9433 TIME:7.59
+model-Epoch: 43 model-Train Loss: 0.0956 model-Val Loss: 0.0943 model-Acc: 0.8674 model-Pre: 0.8922 model-Recall: 0.8385 model-F1: 0.8645 model-Train AUC: 0.9409 model-Val AUC: 0.9457 Time: 7.77
+ ***************************************************************************************************************
+model2-Epoch: 44 model2-Train Loss: 0.0890 model2-Val Loss: 0.0882 model2-Train AUC: 0.9434 model2-Val AUC: 0.9447 TIME:7.56
+model-Epoch: 44 model-Train Loss: 0.0959 model-Val Loss: 0.0942 model-Acc: 0.8656 model-Pre: 0.8926 model-Recall: 0.8339 model-F1: 0.8623 model-Train AUC: 0.9410 model-Val AUC: 0.9460 Time: 7.74
+ ***************************************************************************************************************
+model2-Epoch: 45 model2-Train Loss: 0.0902 model2-Val Loss: 0.0883 model2-Train AUC: 0.9425 model2-Val AUC: 0.9441 TIME:7.52
+model-Epoch: 45 model-Train Loss: 0.0950 model-Val Loss: 0.0936 model-Acc: 0.8683 model-Pre: 0.8894 model-Recall: 0.8440 model-F1: 0.8661 model-Train AUC: 0.9412 model-Val AUC: 0.9461 Time: 7.70
+ ***************************************************************************************************************
+model2-Epoch: 46 model2-Train Loss: 0.0903 model2-Val Loss: 0.0885 model2-Train AUC: 0.9424 model2-Val AUC: 0.9435 TIME:7.57
+model-Epoch: 46 model-Train Loss: 0.0954 model-Val Loss: 0.0936 model-Acc: 0.8692 model-Pre: 0.8845 model-Recall: 0.8522 model-F1: 0.8680 model-Train AUC: 0.9412 model-Val AUC: 0.9459 Time: 7.75
+ ***************************************************************************************************************
+model2-Epoch: 47 model2-Train Loss: 0.0893 model2-Val Loss: 0.0865 model2-Train AUC: 0.9434 model2-Val AUC: 0.9452 TIME:7.67
+model-Epoch: 47 model-Train Loss: 0.0950 model-Val Loss: 0.0958 model-Acc: 0.8683 model-Pre: 0.9042 model-Recall: 0.8266 model-F1: 0.8637 model-Train AUC: 0.9411 model-Val AUC: 0.9458 Time: 7.85
+ ***************************************************************************************************************
+model2-Epoch: 48 model2-Train Loss: 0.0888 model2-Val Loss: 0.0865 model2-Train AUC: 0.9443 model2-Val AUC: 0.9448 TIME:7.63
+model-Epoch: 48 model-Train Loss: 0.0949 model-Val Loss: 0.0947 model-Acc: 0.8697 model-Pre: 0.8989 model-Recall: 0.8358 model-F1: 0.8662 model-Train AUC: 0.9415 model-Val AUC: 0.9462 Time: 7.81
+ ***************************************************************************************************************
+model2-Epoch: 49 model2-Train Loss: 0.0883 model2-Val Loss: 0.0880 model2-Train AUC: 0.9439 model2-Val AUC: 0.9457 TIME:7.58
+model-Epoch: 49 model-Train Loss: 0.0951 model-Val Loss: 0.0939 model-Acc: 0.8674 model-Pre: 0.8938 model-Recall: 0.8367 model-F1: 0.8643 model-Train AUC: 0.9417 model-Val AUC: 0.9465 Time: 7.76
+ ***************************************************************************************************************
+model2-Epoch: 50 model2-Train Loss: 0.0888 model2-Val Loss: 0.0878 model2-Train AUC: 0.9440 model2-Val AUC: 0.9443 TIME:7.53
+model-Epoch: 50 model-Train Loss: 0.0944 model-Val Loss: 0.0934 model-Acc: 0.8688 model-Pre: 0.8918 model-Recall: 0.8422 model-F1: 0.8663 model-Train AUC: 0.9419 model-Val AUC: 0.9466 Time: 7.71
+ ***************************************************************************************************************
+model2-Epoch: 51 model2-Train Loss: 0.0881 model2-Val Loss: 0.0865 model2-Train AUC: 0.9444 model2-Val AUC: 0.9454 TIME:7.55
+model-Epoch: 51 model-Train Loss: 0.0945 model-Val Loss: 0.0937 model-Acc: 0.8688 model-Pre: 0.8683 model-Recall: 0.8723 model-F1: 0.8703 model-Train AUC: 0.9422 model-Val AUC: 0.9464 Time: 7.73
+ ***************************************************************************************************************
+model2-Epoch: 52 model2-Train Loss: 0.0893 model2-Val Loss: 0.0872 model2-Train AUC: 0.9436 model2-Val AUC: 0.9444 TIME:7.62
+model-Epoch: 52 model-Train Loss: 0.0945 model-Val Loss: 0.0947 model-Acc: 0.8692 model-Pre: 0.9028 model-Recall: 0.8303 model-F1: 0.8650 model-Train AUC: 0.9420 model-Val AUC: 0.9467 Time: 7.80
+ ***************************************************************************************************************
+model2-Epoch: 53 model2-Train Loss: 0.0880 model2-Val Loss: 0.0872 model2-Train AUC: 0.9441 model2-Val AUC: 0.9449 TIME:7.51
+model-Epoch: 53 model-Train Loss: 0.0947 model-Val Loss: 0.0931 model-Acc: 0.8688 model-Pre: 0.8737 model-Recall: 0.8650 model-F1: 0.8693 model-Train AUC: 0.9423 model-Val AUC: 0.9465 Time: 7.69
+ ***************************************************************************************************************
+model2-Epoch: 54 model2-Train Loss: 0.0878 model2-Val Loss: 0.0850 model2-Train AUC: 0.9446 model2-Val AUC: 0.9477 TIME:7.52
+model-Epoch: 54 model-Train Loss: 0.0943 model-Val Loss: 0.0934 model-Acc: 0.8702 model-Pre: 0.8720 model-Recall: 0.8704 model-F1: 0.8712 model-Train AUC: 0.9424 model-Val AUC: 0.9464 Time: 7.70
+ ***************************************************************************************************************
+model2-Epoch: 55 model2-Train Loss: 0.0869 model2-Val Loss: 0.0851 model2-Train AUC: 0.9452 model2-Val AUC: 0.9464 TIME:7.52
+model-Epoch: 55 model-Train Loss: 0.0937 model-Val Loss: 0.0930 model-Acc: 0.8683 model-Pre: 0.8828 model-Recall: 0.8522 model-F1: 0.8672 model-Train AUC: 0.9424 model-Val AUC: 0.9467 Time: 7.70
+ ***************************************************************************************************************
+model2-Epoch: 56 model2-Train Loss: 0.0866 model2-Val Loss: 0.0882 model2-Train AUC: 0.9457 model2-Val AUC: 0.9442 TIME:7.61
+model-Epoch: 56 model-Train Loss: 0.0970 model-Val Loss: 0.0983 model-Acc: 0.8610 model-Pre: 0.8359 model-Recall: 0.9015 model-F1: 0.8674 model-Train AUC: 0.9426 model-Val AUC: 0.9459 Time: 7.79
+ ***************************************************************************************************************
+model2-Epoch: 57 model2-Train Loss: 0.0867 model2-Val Loss: 0.0850 model2-Train AUC: 0.9456 model2-Val AUC: 0.9472 TIME:7.55
+model-Epoch: 57 model-Train Loss: 0.0940 model-Val Loss: 0.0930 model-Acc: 0.8683 model-Pre: 0.8764 model-Recall: 0.8604 model-F1: 0.8683 model-Train AUC: 0.9425 model-Val AUC: 0.9464 Time: 7.73
+ ***************************************************************************************************************
+model2-Epoch: 58 model2-Train Loss: 0.0861 model2-Val Loss: 0.0852 model2-Train AUC: 0.9459 model2-Val AUC: 0.9472 TIME:7.52
+model-Epoch: 58 model-Train Loss: 0.0934 model-Val Loss: 0.0930 model-Acc: 0.8674 model-Pre: 0.8734 model-Recall: 0.8622 model-F1: 0.8678 model-Train AUC: 0.9427 model-Val AUC: 0.9465 Time: 7.69
+ ***************************************************************************************************************
+model2-Epoch: 59 model2-Train Loss: 0.0867 model2-Val Loss: 0.0848 model2-Train AUC: 0.9453 model2-Val AUC: 0.9482 TIME:7.54
+model-Epoch: 59 model-Train Loss: 0.0932 model-Val Loss: 0.0929 model-Acc: 0.8697 model-Pre: 0.8788 model-Recall: 0.8604 model-F1: 0.8695 model-Train AUC: 0.9428 model-Val AUC: 0.9466 Time: 7.71
+ ***************************************************************************************************************
+model2-Epoch: 60 model2-Train Loss: 0.0860 model2-Val Loss: 0.0867 model2-Train AUC: 0.9460 model2-Val AUC: 0.9441 TIME:7.58
+model-Epoch: 60 model-Train Loss: 0.0931 model-Val Loss: 0.0930 model-Acc: 0.8669 model-Pre: 0.8847 model-Recall: 0.8467 model-F1: 0.8653 model-Train AUC: 0.9429 model-Val AUC: 0.9467 Time: 7.76
+ ***************************************************************************************************************
+model2-Epoch: 61 model2-Train Loss: 0.0867 model2-Val Loss: 0.0853 model2-Train AUC: 0.9455 model2-Val AUC: 0.9469 TIME:7.49
+model-Epoch: 61 model-Train Loss: 0.0947 model-Val Loss: 0.0935 model-Acc: 0.8688 model-Pre: 0.8858 model-Recall: 0.8495 model-F1: 0.8673 model-Train AUC: 0.9427 model-Val AUC: 0.9463 Time: 7.67
+ ***************************************************************************************************************
+model2-Epoch: 62 model2-Train Loss: 0.0860 model2-Val Loss: 0.0848 model2-Train AUC: 0.9463 model2-Val AUC: 0.9471 TIME:7.52
+model-Epoch: 62 model-Train Loss: 0.0943 model-Val Loss: 0.0943 model-Acc: 0.8706 model-Pre: 0.9015 model-Recall: 0.8349 model-F1: 0.8669 model-Train AUC: 0.9428 model-Val AUC: 0.9466 Time: 7.69
+ ***************************************************************************************************************
+model2-Epoch: 63 model2-Train Loss: 0.0860 model2-Val Loss: 0.0868 model2-Train AUC: 0.9464 model2-Val AUC: 0.9447 TIME:7.48
+model-Epoch: 63 model-Train Loss: 0.0932 model-Val Loss: 0.0935 model-Acc: 0.8702 model-Pre: 0.8921 model-Recall: 0.8449 model-F1: 0.8679 model-Train AUC: 0.9431 model-Val AUC: 0.9466 Time: 7.66
+ ***************************************************************************************************************
+model2-Epoch: 64 model2-Train Loss: 0.0851 model2-Val Loss: 0.0851 model2-Train AUC: 0.9468 model2-Val AUC: 0.9469 TIME:7.53
+model-Epoch: 64 model-Train Loss: 0.0927 model-Val Loss: 0.0930 model-Acc: 0.8683 model-Pre: 0.8821 model-Recall: 0.8531 model-F1: 0.8673 model-Train AUC: 0.9433 model-Val AUC: 0.9465 Time: 7.72
+ ***************************************************************************************************************
+model2-Epoch: 65 model2-Train Loss: 0.0869 model2-Val Loss: 0.0834 model2-Train AUC: 0.9454 model2-Val AUC: 0.9482 TIME:7.51
+model-Epoch: 65 model-Train Loss: 0.0926 model-Val Loss: 0.0930 model-Acc: 0.8679 model-Pre: 0.8827 model-Recall: 0.8513 model-F1: 0.8667 model-Train AUC: 0.9434 model-Val AUC: 0.9466 Time: 7.69
+ ***************************************************************************************************************
+model2-Epoch: 66 model2-Train Loss: 0.0861 model2-Val Loss: 0.0841 model2-Train AUC: 0.9464 model2-Val AUC: 0.9479 TIME:7.55
+model-Epoch: 66 model-Train Loss: 0.0924 model-Val Loss: 0.0930 model-Acc: 0.8679 model-Pre: 0.8841 model-Recall: 0.8495 model-F1: 0.8664 model-Train AUC: 0.9435 model-Val AUC: 0.9467 Time: 7.73
+ ***************************************************************************************************************
+model2-Epoch: 67 model2-Train Loss: 0.0850 model2-Val Loss: 0.0836 model2-Train AUC: 0.9473 model2-Val AUC: 0.9485 TIME:7.49
+model-Epoch: 67 model-Train Loss: 0.1055 model-Val Loss: 0.0986 model-Acc: 0.8637 model-Pre: 0.8448 model-Recall: 0.8942 model-F1: 0.8688 model-Train AUC: 0.9425 model-Val AUC: 0.9441 Time: 7.67
+ ***************************************************************************************************************
+model2-Epoch: 68 model2-Train Loss: 0.0850 model2-Val Loss: 0.0848 model2-Train AUC: 0.9475 model2-Val AUC: 0.9476 TIME:7.49
+model-Epoch: 68 model-Train Loss: 0.0934 model-Val Loss: 0.0966 model-Acc: 0.8642 model-Pre: 0.8504 model-Recall: 0.8869 model-F1: 0.8682 model-Train AUC: 0.9425 model-Val AUC: 0.9446 Time: 7.67
+ ***************************************************************************************************************
+model2-Epoch: 69 model2-Train Loss: 0.0848 model2-Val Loss: 0.0844 model2-Train AUC: 0.9471 model2-Val AUC: 0.9467 TIME:7.55
+model-Epoch: 69 model-Train Loss: 0.0941 model-Val Loss: 0.0939 model-Acc: 0.8683 model-Pre: 0.8722 model-Recall: 0.8659 model-F1: 0.8690 model-Train AUC: 0.9431 model-Val AUC: 0.9452 Time: 7.72
+ ***************************************************************************************************************
+model2-Epoch: 70 model2-Train Loss: 0.0839 model2-Val Loss: 0.0851 model2-Train AUC: 0.9478 model2-Val AUC: 0.9467 TIME:7.54
+model-Epoch: 70 model-Train Loss: 0.0928 model-Val Loss: 0.0935 model-Acc: 0.8679 model-Pre: 0.8849 model-Recall: 0.8485 model-F1: 0.8663 model-Train AUC: 0.9433 model-Val AUC: 0.9459 Time: 7.72
+ ***************************************************************************************************************
+Fold: 4 model-Test Acc: 0.8679 model-Test Pre: 0.8849 model-Test Recall: 0.8485 model-Test F1: 0.8663 model-Test AUC: 0.9459
+
+Fold: 4 model2-Test Acc: 0.8907 model2-Test Pre: 0.8726 model2-Test Recall: 0.9143 model2-Test F1: 0.8930 model2-Test AUC: 0.9509
+------------------------------------------------------------------------------------------------------
+Training for Fold  5
+## total Training edges: 47056
+## total Testing edges: 11760
+model2-Epoch: 1 model2-Train Loss: 0.1521 model2-Val Loss: 0.1375 model2-Train AUC: 0.8670 model2-Val AUC: 0.8830 TIME:7.58
+model-Epoch: 1 model-Train Loss: 0.1898 model-Val Loss: 0.1655 model-Acc: 0.8283 model-Pre: 0.8143 model-Recall: 0.8496 model-F1: 0.8316 model-Train AUC: 0.9102 model-Val AUC: 0.9067 Time: 7.76
+ ***************************************************************************************************************
+model2-Epoch: 2 model2-Train Loss: 0.1291 model2-Val Loss: 0.1195 model2-Train AUC: 0.9043 model2-Val AUC: 0.9152 TIME:7.57
+model-Epoch: 2 model-Train Loss: 0.1366 model-Val Loss: 0.1346 model-Acc: 0.7979 model-Pre: 0.9077 model-Recall: 0.6624 model-F1: 0.7659 model-Train AUC: 0.9119 model-Val AUC: 0.9080 Time: 7.75
+ ***************************************************************************************************************
+model2-Epoch: 3 model2-Train Loss: 0.1240 model2-Val Loss: 0.1129 model2-Train AUC: 0.9137 model2-Val AUC: 0.9233 TIME:7.56
+model-Epoch: 3 model-Train Loss: 0.1239 model-Val Loss: 0.1218 model-Acc: 0.8301 model-Pre: 0.8543 model-Recall: 0.7952 model-F1: 0.8237 model-Train AUC: 0.9141 model-Val AUC: 0.9105 Time: 7.73
+ ***************************************************************************************************************
+model2-Epoch: 4 model2-Train Loss: 0.1185 model2-Val Loss: 0.1098 model2-Train AUC: 0.9164 model2-Val AUC: 0.9268 TIME:7.56
+model-Epoch: 4 model-Train Loss: 0.1178 model-Val Loss: 0.1215 model-Acc: 0.8329 model-Pre: 0.8341 model-Recall: 0.8303 model-F1: 0.8322 model-Train AUC: 0.9150 model-Val AUC: 0.9112 Time: 7.73
+ ***************************************************************************************************************
+model2-Epoch: 5 model2-Train Loss: 0.1186 model2-Val Loss: 0.1097 model2-Train AUC: 0.9163 model2-Val AUC: 0.9270 TIME:7.54
+model-Epoch: 5 model-Train Loss: 0.1172 model-Val Loss: 0.1203 model-Acc: 0.8320 model-Pre: 0.8514 model-Recall: 0.8035 model-F1: 0.8268 model-Train AUC: 0.9158 model-Val AUC: 0.9116 Time: 7.72
+ ***************************************************************************************************************
+model2-Epoch: 6 model2-Train Loss: 0.1135 model2-Val Loss: 0.1082 model2-Train AUC: 0.9233 model2-Val AUC: 0.9290 TIME:7.53
+model-Epoch: 6 model-Train Loss: 0.1161 model-Val Loss: 0.1198 model-Acc: 0.8306 model-Pre: 0.8545 model-Recall: 0.7961 model-F1: 0.8243 model-Train AUC: 0.9166 model-Val AUC: 0.9123 Time: 7.71
+ ***************************************************************************************************************
+model2-Epoch: 7 model2-Train Loss: 0.1129 model2-Val Loss: 0.1078 model2-Train AUC: 0.9233 model2-Val AUC: 0.9304 TIME:7.60
+model-Epoch: 7 model-Train Loss: 0.1155 model-Val Loss: 0.1197 model-Acc: 0.8301 model-Pre: 0.8600 model-Recall: 0.7878 model-F1: 0.8223 model-Train AUC: 0.9171 model-Val AUC: 0.9126 Time: 7.78
+ ***************************************************************************************************************
+model2-Epoch: 8 model2-Train Loss: 0.1102 model2-Val Loss: 0.1032 model2-Train AUC: 0.9237 model2-Val AUC: 0.9318 TIME:7.50
+model-Epoch: 8 model-Train Loss: 0.1151 model-Val Loss: 0.1193 model-Acc: 0.8315 model-Pre: 0.8590 model-Recall: 0.7924 model-F1: 0.8244 model-Train AUC: 0.9175 model-Val AUC: 0.9130 Time: 7.68
+ ***************************************************************************************************************
+model2-Epoch: 9 model2-Train Loss: 0.1066 model2-Val Loss: 0.1020 model2-Train AUC: 0.9271 model2-Val AUC: 0.9323 TIME:7.55
+model-Epoch: 9 model-Train Loss: 0.1149 model-Val Loss: 0.1192 model-Acc: 0.8320 model-Pre: 0.8620 model-Recall: 0.7897 model-F1: 0.8243 model-Train AUC: 0.9180 model-Val AUC: 0.9134 Time: 7.73
+ ***************************************************************************************************************
+model2-Epoch: 10 model2-Train Loss: 0.1072 model2-Val Loss: 0.0972 model2-Train AUC: 0.9270 model2-Val AUC: 0.9373 TIME:7.56
+model-Epoch: 10 model-Train Loss: 0.1145 model-Val Loss: 0.1192 model-Acc: 0.8310 model-Pre: 0.8647 model-Recall: 0.7841 model-F1: 0.8224 model-Train AUC: 0.9185 model-Val AUC: 0.9138 Time: 7.74
+ ***************************************************************************************************************
+model2-Epoch: 11 model2-Train Loss: 0.1055 model2-Val Loss: 0.1022 model2-Train AUC: 0.9276 model2-Val AUC: 0.9327 TIME:7.58
+model-Epoch: 11 model-Train Loss: 0.1145 model-Val Loss: 0.1182 model-Acc: 0.8324 model-Pre: 0.8455 model-Recall: 0.8127 model-F1: 0.8288 model-Train AUC: 0.9190 model-Val AUC: 0.9144 Time: 7.76
+ ***************************************************************************************************************
+model2-Epoch: 12 model2-Train Loss: 0.1049 model2-Val Loss: 0.1004 model2-Train AUC: 0.9283 model2-Val AUC: 0.9341 TIME:7.55
+model-Epoch: 12 model-Train Loss: 0.1142 model-Val Loss: 0.1206 model-Acc: 0.8315 model-Pre: 0.8860 model-Recall: 0.7601 model-F1: 0.8183 model-Train AUC: 0.9196 model-Val AUC: 0.9147 Time: 7.73
+ ***************************************************************************************************************
+model2-Epoch: 13 model2-Train Loss: 0.1025 model2-Val Loss: 0.0987 model2-Train AUC: 0.9313 model2-Val AUC: 0.9349 TIME:7.59
+model-Epoch: 13 model-Train Loss: 0.1143 model-Val Loss: 0.1205 model-Acc: 0.8324 model-Pre: 0.8871 model-Recall: 0.7611 model-F1: 0.8193 model-Train AUC: 0.9201 model-Val AUC: 0.9154 Time: 7.77
+ ***************************************************************************************************************
+model2-Epoch: 14 model2-Train Loss: 0.1018 model2-Val Loss: 0.0974 model2-Train AUC: 0.9312 model2-Val AUC: 0.9360 TIME:7.57
+model-Epoch: 14 model-Train Loss: 0.1135 model-Val Loss: 0.1175 model-Acc: 0.8393 model-Pre: 0.8470 model-Recall: 0.8275 model-F1: 0.8371 model-Train AUC: 0.9206 model-Val AUC: 0.9158 Time: 7.74
+ ***************************************************************************************************************
+model2-Epoch: 15 model2-Train Loss: 0.1000 model2-Val Loss: 0.0961 model2-Train AUC: 0.9335 model2-Val AUC: 0.9378 TIME:7.51
+model-Epoch: 15 model-Train Loss: 0.1126 model-Val Loss: 0.1173 model-Acc: 0.8338 model-Pre: 0.8640 model-Recall: 0.7915 model-F1: 0.8262 model-Train AUC: 0.9212 model-Val AUC: 0.9164 Time: 7.68
+ ***************************************************************************************************************
+model2-Epoch: 16 model2-Train Loss: 0.1010 model2-Val Loss: 0.0957 model2-Train AUC: 0.9327 model2-Val AUC: 0.9374 TIME:7.58
+model-Epoch: 16 model-Train Loss: 0.1121 model-Val Loss: 0.1164 model-Acc: 0.8361 model-Pre: 0.8618 model-Recall: 0.7998 model-F1: 0.8297 model-Train AUC: 0.9218 model-Val AUC: 0.9169 Time: 7.76
+ ***************************************************************************************************************
+model2-Epoch: 17 model2-Train Loss: 0.1001 model2-Val Loss: 0.0951 model2-Train AUC: 0.9331 model2-Val AUC: 0.9382 TIME:7.75
+model-Epoch: 17 model-Train Loss: 0.1162 model-Val Loss: 0.1239 model-Acc: 0.8260 model-Pre: 0.9021 model-Recall: 0.7306 model-F1: 0.8073 model-Train AUC: 0.9223 model-Val AUC: 0.9174 Time: 7.92
+ ***************************************************************************************************************
+model2-Epoch: 18 model2-Train Loss: 0.0991 model2-Val Loss: 0.0945 model2-Train AUC: 0.9344 model2-Val AUC: 0.9395 TIME:7.57
+model-Epoch: 18 model-Train Loss: 0.1133 model-Val Loss: 0.1175 model-Acc: 0.8370 model-Pre: 0.8842 model-Recall: 0.7749 model-F1: 0.8260 model-Train AUC: 0.9229 model-Val AUC: 0.9183 Time: 7.75
+ ***************************************************************************************************************
+model2-Epoch: 19 model2-Train Loss: 0.0978 model2-Val Loss: 0.0931 model2-Train AUC: 0.9358 model2-Val AUC: 0.9409 TIME:7.58
+model-Epoch: 19 model-Train Loss: 0.1109 model-Val Loss: 0.1151 model-Acc: 0.8379 model-Pre: 0.8638 model-Recall: 0.8017 model-F1: 0.8316 model-Train AUC: 0.9237 model-Val AUC: 0.9187 Time: 7.76
+ ***************************************************************************************************************
+model2-Epoch: 20 model2-Train Loss: 0.0972 model2-Val Loss: 0.0947 model2-Train AUC: 0.9359 model2-Val AUC: 0.9406 TIME:7.50
+model-Epoch: 20 model-Train Loss: 0.1107 model-Val Loss: 0.1167 model-Acc: 0.8379 model-Pre: 0.8861 model-Recall: 0.7749 model-F1: 0.8268 model-Train AUC: 0.9244 model-Val AUC: 0.9194 Time: 7.68
+ ***************************************************************************************************************
+model2-Epoch: 21 model2-Train Loss: 0.0967 model2-Val Loss: 0.0920 model2-Train AUC: 0.9371 model2-Val AUC: 0.9419 TIME:7.52
+model-Epoch: 21 model-Train Loss: 0.1101 model-Val Loss: 0.1146 model-Acc: 0.8412 model-Pre: 0.8444 model-Recall: 0.8358 model-F1: 0.8401 model-Train AUC: 0.9253 model-Val AUC: 0.9198 Time: 7.69
+ ***************************************************************************************************************
+model2-Epoch: 22 model2-Train Loss: 0.0971 model2-Val Loss: 0.0916 model2-Train AUC: 0.9371 model2-Val AUC: 0.9414 TIME:7.53
+model-Epoch: 22 model-Train Loss: 0.1097 model-Val Loss: 0.1161 model-Acc: 0.8379 model-Pre: 0.8877 model-Recall: 0.7731 model-F1: 0.8264 model-Train AUC: 0.9259 model-Val AUC: 0.9208 Time: 7.71
+ ***************************************************************************************************************
+model2-Epoch: 23 model2-Train Loss: 0.0957 model2-Val Loss: 0.0920 model2-Train AUC: 0.9376 model2-Val AUC: 0.9419 TIME:7.55
+model-Epoch: 23 model-Train Loss: 0.1112 model-Val Loss: 0.1135 model-Acc: 0.8407 model-Pre: 0.8675 model-Recall: 0.8035 model-F1: 0.8343 model-Train AUC: 0.9268 model-Val AUC: 0.9214 Time: 7.73
+ ***************************************************************************************************************
+model2-Epoch: 24 model2-Train Loss: 0.0954 model2-Val Loss: 0.0895 model2-Train AUC: 0.9378 model2-Val AUC: 0.9441 TIME:7.55
+model-Epoch: 24 model-Train Loss: 0.1094 model-Val Loss: 0.1134 model-Acc: 0.8398 model-Pre: 0.8732 model-Recall: 0.7943 model-F1: 0.8319 model-Train AUC: 0.9270 model-Val AUC: 0.9219 Time: 7.73
+ ***************************************************************************************************************
+model2-Epoch: 25 model2-Train Loss: 0.0946 model2-Val Loss: 0.0910 model2-Train AUC: 0.9383 model2-Val AUC: 0.9435 TIME:7.61
+model-Epoch: 25 model-Train Loss: 0.1075 model-Val Loss: 0.1123 model-Acc: 0.8448 model-Pre: 0.8702 model-Recall: 0.8100 model-F1: 0.8390 model-Train AUC: 0.9280 model-Val AUC: 0.9226 Time: 7.79
+ ***************************************************************************************************************
+model2-Epoch: 26 model2-Train Loss: 0.0945 model2-Val Loss: 0.0893 model2-Train AUC: 0.9386 model2-Val AUC: 0.9439 TIME:7.50
+model-Epoch: 26 model-Train Loss: 0.1067 model-Val Loss: 0.1117 model-Acc: 0.8494 model-Pre: 0.8574 model-Recall: 0.8376 model-F1: 0.8474 model-Train AUC: 0.9292 model-Val AUC: 0.9233 Time: 7.68
+ ***************************************************************************************************************
+model2-Epoch: 27 model2-Train Loss: 0.0924 model2-Val Loss: 0.0895 model2-Train AUC: 0.9406 model2-Val AUC: 0.9449 TIME:7.56
+model-Epoch: 27 model-Train Loss: 0.1083 model-Val Loss: 0.1145 model-Acc: 0.8444 model-Pre: 0.8278 model-Recall: 0.8690 model-F1: 0.8479 model-Train AUC: 0.9284 model-Val AUC: 0.9232 Time: 7.73
+ ***************************************************************************************************************
+model2-Epoch: 28 model2-Train Loss: 0.0929 model2-Val Loss: 0.0899 model2-Train AUC: 0.9401 model2-Val AUC: 0.9442 TIME:7.50
+model-Epoch: 28 model-Train Loss: 0.1065 model-Val Loss: 0.1126 model-Acc: 0.8467 model-Pre: 0.8411 model-Recall: 0.8542 model-F1: 0.8476 model-Train AUC: 0.9298 model-Val AUC: 0.9238 Time: 7.68
+ ***************************************************************************************************************
+model2-Epoch: 29 model2-Train Loss: 0.0924 model2-Val Loss: 0.0874 model2-Train AUC: 0.9412 model2-Val AUC: 0.9445 TIME:7.53
+model-Epoch: 29 model-Train Loss: 0.1062 model-Val Loss: 0.1107 model-Acc: 0.8476 model-Pre: 0.8603 model-Recall: 0.8293 model-F1: 0.8445 model-Train AUC: 0.9302 model-Val AUC: 0.9247 Time: 7.71
+ ***************************************************************************************************************
+model2-Epoch: 30 model2-Train Loss: 0.0923 model2-Val Loss: 0.0889 model2-Train AUC: 0.9418 model2-Val AUC: 0.9448 TIME:7.59
+model-Epoch: 30 model-Train Loss: 0.1049 model-Val Loss: 0.1109 model-Acc: 0.8476 model-Pre: 0.8838 model-Recall: 0.7998 model-F1: 0.8397 model-Train AUC: 0.9312 model-Val AUC: 0.9256 Time: 7.77
+ ***************************************************************************************************************
+model2-Epoch: 31 model2-Train Loss: 0.0915 model2-Val Loss: 0.0878 model2-Train AUC: 0.9418 model2-Val AUC: 0.9468 TIME:7.54
+model-Epoch: 31 model-Train Loss: 0.1038 model-Val Loss: 0.1096 model-Acc: 0.8499 model-Pre: 0.8790 model-Recall: 0.8109 model-F1: 0.8436 model-Train AUC: 0.9324 model-Val AUC: 0.9266 Time: 7.72
+ ***************************************************************************************************************
+model2-Epoch: 32 model2-Train Loss: 0.0916 model2-Val Loss: 0.0878 model2-Train AUC: 0.9417 model2-Val AUC: 0.9447 TIME:7.57
+model-Epoch: 32 model-Train Loss: 0.1049 model-Val Loss: 0.1097 model-Acc: 0.8462 model-Pre: 0.8397 model-Recall: 0.8552 model-F1: 0.8473 model-Train AUC: 0.9325 model-Val AUC: 0.9269 Time: 7.75
+ ***************************************************************************************************************
+model2-Epoch: 33 model2-Train Loss: 0.0901 model2-Val Loss: 0.0869 model2-Train AUC: 0.9430 model2-Val AUC: 0.9470 TIME:7.54
+model-Epoch: 33 model-Train Loss: 0.1031 model-Val Loss: 0.1129 model-Acc: 0.8430 model-Pre: 0.9025 model-Recall: 0.7685 model-F1: 0.8301 model-Train AUC: 0.9336 model-Val AUC: 0.9283 Time: 7.71
+ ***************************************************************************************************************
+model2-Epoch: 34 model2-Train Loss: 0.0910 model2-Val Loss: 0.0894 model2-Train AUC: 0.9421 model2-Val AUC: 0.9436 TIME:7.68
+model-Epoch: 34 model-Train Loss: 0.1028 model-Val Loss: 0.1089 model-Acc: 0.8531 model-Pre: 0.8455 model-Recall: 0.8635 model-F1: 0.8544 model-Train AUC: 0.9346 model-Val AUC: 0.9282 Time: 7.86
+ ***************************************************************************************************************
+model2-Epoch: 35 model2-Train Loss: 0.0912 model2-Val Loss: 0.0889 model2-Train AUC: 0.9421 model2-Val AUC: 0.9449 TIME:7.50
+model-Epoch: 35 model-Train Loss: 0.1015 model-Val Loss: 0.1076 model-Acc: 0.8541 model-Pre: 0.8793 model-Recall: 0.8201 model-F1: 0.8487 model-Train AUC: 0.9355 model-Val AUC: 0.9293 Time: 7.67
+ ***************************************************************************************************************
+model2-Epoch: 36 model2-Train Loss: 0.0897 model2-Val Loss: 0.0870 model2-Train AUC: 0.9430 model2-Val AUC: 0.9467 TIME:7.62
+model-Epoch: 36 model-Train Loss: 0.1008 model-Val Loss: 0.1072 model-Acc: 0.8508 model-Pre: 0.8808 model-Recall: 0.8109 model-F1: 0.8444 model-Train AUC: 0.9363 model-Val AUC: 0.9304 Time: 7.80
+ ***************************************************************************************************************
+model2-Epoch: 37 model2-Train Loss: 0.0897 model2-Val Loss: 0.0890 model2-Train AUC: 0.9433 model2-Val AUC: 0.9451 TIME:7.58
+model-Epoch: 37 model-Train Loss: 0.1092 model-Val Loss: 0.1078 model-Acc: 0.8527 model-Pre: 0.8752 model-Recall: 0.8220 model-F1: 0.8478 model-Train AUC: 0.9359 model-Val AUC: 0.9296 Time: 7.76
+ ***************************************************************************************************************
+model2-Epoch: 38 model2-Train Loss: 0.0898 model2-Val Loss: 0.0868 model2-Train AUC: 0.9434 model2-Val AUC: 0.9465 TIME:7.57
+model-Epoch: 38 model-Train Loss: 0.1033 model-Val Loss: 0.1067 model-Acc: 0.8545 model-Pre: 0.8765 model-Recall: 0.8247 model-F1: 0.8498 model-Train AUC: 0.9371 model-Val AUC: 0.9306 Time: 7.75
+ ***************************************************************************************************************
+model2-Epoch: 39 model2-Train Loss: 0.0896 model2-Val Loss: 0.0883 model2-Train AUC: 0.9434 model2-Val AUC: 0.9458 TIME:7.49
+model-Epoch: 39 model-Train Loss: 0.1007 model-Val Loss: 0.1059 model-Acc: 0.8591 model-Pre: 0.8615 model-Recall: 0.8552 model-F1: 0.8583 model-Train AUC: 0.9375 model-Val AUC: 0.9310 Time: 7.66
+ ***************************************************************************************************************
+model2-Epoch: 40 model2-Train Loss: 0.0889 model2-Val Loss: 0.0857 model2-Train AUC: 0.9440 model2-Val AUC: 0.9478 TIME:7.62
+model-Epoch: 40 model-Train Loss: 0.0997 model-Val Loss: 0.1061 model-Acc: 0.8550 model-Pre: 0.8872 model-Recall: 0.8127 model-F1: 0.8483 model-Train AUC: 0.9382 model-Val AUC: 0.9321 Time: 7.80
+ ***************************************************************************************************************
+model2-Epoch: 41 model2-Train Loss: 0.0891 model2-Val Loss: 0.0881 model2-Train AUC: 0.9439 model2-Val AUC: 0.9457 TIME:7.60
+model-Epoch: 41 model-Train Loss: 0.0980 model-Val Loss: 0.1039 model-Acc: 0.8605 model-Pre: 0.8751 model-Recall: 0.8404 model-F1: 0.8574 model-Train AUC: 0.9394 model-Val AUC: 0.9332 Time: 7.77
+ ***************************************************************************************************************
+model2-Epoch: 42 model2-Train Loss: 0.0882 model2-Val Loss: 0.0861 model2-Train AUC: 0.9450 model2-Val AUC: 0.9472 TIME:7.57
+model-Epoch: 42 model-Train Loss: 0.1234 model-Val Loss: 0.1093 model-Acc: 0.8485 model-Pre: 0.8235 model-Recall: 0.8865 model-F1: 0.8538 model-Train AUC: 0.9366 model-Val AUC: 0.9307 Time: 7.75
+ ***************************************************************************************************************
+model2-Epoch: 43 model2-Train Loss: 0.0880 model2-Val Loss: 0.0862 model2-Train AUC: 0.9453 model2-Val AUC: 0.9468 TIME:7.67
+model-Epoch: 43 model-Train Loss: 0.1058 model-Val Loss: 0.1118 model-Acc: 0.8430 model-Pre: 0.8990 model-Recall: 0.7721 model-F1: 0.8308 model-Train AUC: 0.9374 model-Val AUC: 0.9319 Time: 7.85
+ ***************************************************************************************************************
+model2-Epoch: 44 model2-Train Loss: 0.0881 model2-Val Loss: 0.0846 model2-Train AUC: 0.9454 model2-Val AUC: 0.9480 TIME:7.54
+model-Epoch: 44 model-Train Loss: 0.1001 model-Val Loss: 0.1073 model-Acc: 0.8573 model-Pre: 0.8455 model-Recall: 0.8736 model-F1: 0.8593 model-Train AUC: 0.9385 model-Val AUC: 0.9321 Time: 7.72
+ ***************************************************************************************************************
+model2-Epoch: 45 model2-Train Loss: 0.0874 model2-Val Loss: 0.0871 model2-Train AUC: 0.9457 model2-Val AUC: 0.9472 TIME:7.54
+model-Epoch: 45 model-Train Loss: 0.0998 model-Val Loss: 0.1051 model-Acc: 0.8554 model-Pre: 0.8775 model-Recall: 0.8256 model-F1: 0.8508 model-Train AUC: 0.9380 model-Val AUC: 0.9324 Time: 7.72
+ ***************************************************************************************************************
+model2-Epoch: 46 model2-Train Loss: 0.0888 model2-Val Loss: 0.0854 model2-Train AUC: 0.9444 model2-Val AUC: 0.9478 TIME:7.44
+model-Epoch: 46 model-Train Loss: 0.0981 model-Val Loss: 0.1039 model-Acc: 0.8582 model-Pre: 0.8674 model-Recall: 0.8450 model-F1: 0.8561 model-Train AUC: 0.9396 model-Val AUC: 0.9332 Time: 7.62
+ ***************************************************************************************************************
+model2-Epoch: 47 model2-Train Loss: 0.0872 model2-Val Loss: 0.0862 model2-Train AUC: 0.9464 model2-Val AUC: 0.9468 TIME:7.55
+model-Epoch: 47 model-Train Loss: 0.0972 model-Val Loss: 0.1031 model-Acc: 0.8596 model-Pre: 0.8742 model-Recall: 0.8395 model-F1: 0.8565 model-Train AUC: 0.9404 model-Val AUC: 0.9342 Time: 7.73
+ ***************************************************************************************************************
+model2-Epoch: 48 model2-Train Loss: 0.0878 model2-Val Loss: 0.0845 model2-Train AUC: 0.9453 model2-Val AUC: 0.9479 TIME:7.52
+model-Epoch: 48 model-Train Loss: 0.0962 model-Val Loss: 0.1023 model-Acc: 0.8568 model-Pre: 0.8670 model-Recall: 0.8423 model-F1: 0.8545 model-Train AUC: 0.9412 model-Val AUC: 0.9350 Time: 7.69
+ ***************************************************************************************************************
+model2-Epoch: 49 model2-Train Loss: 0.0877 model2-Val Loss: 0.0840 model2-Train AUC: 0.9449 model2-Val AUC: 0.9483 TIME:7.57
+model-Epoch: 49 model-Train Loss: 0.0955 model-Val Loss: 0.1016 model-Acc: 0.8596 model-Pre: 0.8671 model-Recall: 0.8487 model-F1: 0.8578 model-Train AUC: 0.9420 model-Val AUC: 0.9356 Time: 7.75
+ ***************************************************************************************************************
+model2-Epoch: 50 model2-Train Loss: 0.0872 model2-Val Loss: 0.0860 model2-Train AUC: 0.9460 model2-Val AUC: 0.9466 TIME:7.59
+model-Epoch: 50 model-Train Loss: 0.1080 model-Val Loss: 0.1227 model-Acc: 0.8347 model-Pre: 0.7732 model-Recall: 0.9465 model-F1: 0.8511 model-Train AUC: 0.9429 model-Val AUC: 0.9348 Time: 7.77
+ ***************************************************************************************************************
+model2-Epoch: 51 model2-Train Loss: 0.0866 model2-Val Loss: 0.0845 model2-Train AUC: 0.9467 model2-Val AUC: 0.9476 TIME:7.64
+model-Epoch: 51 model-Train Loss: 0.0975 model-Val Loss: 0.1075 model-Acc: 0.8522 model-Pre: 0.9037 model-Recall: 0.7878 model-F1: 0.8418 model-Train AUC: 0.9417 model-Val AUC: 0.9356 Time: 7.82
+ ***************************************************************************************************************
+model2-Epoch: 52 model2-Train Loss: 0.0865 model2-Val Loss: 0.0846 model2-Train AUC: 0.9467 model2-Val AUC: 0.9491 TIME:7.74
+model-Epoch: 52 model-Train Loss: 0.0962 model-Val Loss: 0.1018 model-Acc: 0.8600 model-Pre: 0.8514 model-Recall: 0.8718 model-F1: 0.8614 model-Train AUC: 0.9424 model-Val AUC: 0.9359 Time: 7.92
+ ***************************************************************************************************************
+model2-Epoch: 53 model2-Train Loss: 0.0864 model2-Val Loss: 0.0847 model2-Train AUC: 0.9473 model2-Val AUC: 0.9490 TIME:7.51
+model-Epoch: 53 model-Train Loss: 0.0950 model-Val Loss: 0.1024 model-Acc: 0.8600 model-Pre: 0.8892 model-Recall: 0.8220 model-F1: 0.8543 model-Train AUC: 0.9428 model-Val AUC: 0.9364 Time: 7.69
+ ***************************************************************************************************************
+model2-Epoch: 54 model2-Train Loss: 0.0863 model2-Val Loss: 0.0833 model2-Train AUC: 0.9467 model2-Val AUC: 0.9492 TIME:7.53
+model-Epoch: 54 model-Train Loss: 0.0947 model-Val Loss: 0.1013 model-Acc: 0.8596 model-Pre: 0.8822 model-Recall: 0.8293 model-F1: 0.8550 model-Train AUC: 0.9432 model-Val AUC: 0.9369 Time: 7.72
+ ***************************************************************************************************************
+model2-Epoch: 55 model2-Train Loss: 0.0861 model2-Val Loss: 0.0856 model2-Train AUC: 0.9470 model2-Val AUC: 0.9477 TIME:7.65
+model-Epoch: 55 model-Train Loss: 0.0951 model-Val Loss: 0.1017 model-Acc: 0.8605 model-Pre: 0.8428 model-Recall: 0.8856 model-F1: 0.8637 model-Train AUC: 0.9437 model-Val AUC: 0.9370 Time: 7.83
+ ***************************************************************************************************************
+model2-Epoch: 56 model2-Train Loss: 0.0861 model2-Val Loss: 0.0839 model2-Train AUC: 0.9469 model2-Val AUC: 0.9494 TIME:7.58
+model-Epoch: 56 model-Train Loss: 0.0961 model-Val Loss: 0.1006 model-Acc: 0.8619 model-Pre: 0.8677 model-Recall: 0.8533 model-F1: 0.8605 model-Train AUC: 0.9429 model-Val AUC: 0.9366 Time: 7.76
+ ***************************************************************************************************************
+model2-Epoch: 57 model2-Train Loss: 0.0860 model2-Val Loss: 0.0818 model2-Train AUC: 0.9469 model2-Val AUC: 0.9503 TIME:7.49
+model-Epoch: 57 model-Train Loss: 0.0942 model-Val Loss: 0.1009 model-Acc: 0.8633 model-Pre: 0.8517 model-Recall: 0.8792 model-F1: 0.8652 model-Train AUC: 0.9436 model-Val AUC: 0.9369 Time: 7.67
+ ***************************************************************************************************************
+model2-Epoch: 58 model2-Train Loss: 0.0858 model2-Val Loss: 0.0848 model2-Train AUC: 0.9476 model2-Val AUC: 0.9491 TIME:7.57
+model-Epoch: 58 model-Train Loss: 0.0943 model-Val Loss: 0.1001 model-Acc: 0.8614 model-Pre: 0.8615 model-Recall: 0.8607 model-F1: 0.8611 model-Train AUC: 0.9439 model-Val AUC: 0.9373 Time: 7.75
+ ***************************************************************************************************************
+model2-Epoch: 59 model2-Train Loss: 0.0865 model2-Val Loss: 0.0864 model2-Train AUC: 0.9468 model2-Val AUC: 0.9479 TIME:7.51
+model-Epoch: 59 model-Train Loss: 0.0937 model-Val Loss: 0.0999 model-Acc: 0.8651 model-Pre: 0.8612 model-Recall: 0.8699 model-F1: 0.8655 model-Train AUC: 0.9441 model-Val AUC: 0.9375 Time: 7.69
+ ***************************************************************************************************************
+model2-Epoch: 60 model2-Train Loss: 0.0854 model2-Val Loss: 0.0839 model2-Train AUC: 0.9475 model2-Val AUC: 0.9490 TIME:7.56
+model-Epoch: 60 model-Train Loss: 0.0934 model-Val Loss: 0.1010 model-Acc: 0.8591 model-Pre: 0.8821 model-Recall: 0.8284 model-F1: 0.8544 model-Train AUC: 0.9442 model-Val AUC: 0.9377 Time: 7.74
+ ***************************************************************************************************************
+model2-Epoch: 61 model2-Train Loss: 0.0848 model2-Val Loss: 0.0833 model2-Train AUC: 0.9484 model2-Val AUC: 0.9492 TIME:7.54
+model-Epoch: 61 model-Train Loss: 0.0988 model-Val Loss: 0.1006 model-Acc: 0.8619 model-Pre: 0.8519 model-Recall: 0.8755 model-F1: 0.8635 model-Train AUC: 0.9440 model-Val AUC: 0.9370 Time: 7.71
+ ***************************************************************************************************************
+model2-Epoch: 62 model2-Train Loss: 0.0853 model2-Val Loss: 0.0838 model2-Train AUC: 0.9479 model2-Val AUC: 0.9488 TIME:7.52
+model-Epoch: 62 model-Train Loss: 0.0939 model-Val Loss: 0.1023 model-Acc: 0.8619 model-Pre: 0.8920 model-Recall: 0.8229 model-F1: 0.8560 model-Train AUC: 0.9438 model-Val AUC: 0.9377 Time: 7.70
+ ***************************************************************************************************************
+model2-Epoch: 63 model2-Train Loss: 0.0853 model2-Val Loss: 0.0837 model2-Train AUC: 0.9474 model2-Val AUC: 0.9489 TIME:7.48
+model-Epoch: 63 model-Train Loss: 0.0931 model-Val Loss: 0.0997 model-Acc: 0.8628 model-Pre: 0.8639 model-Recall: 0.8607 model-F1: 0.8623 model-Train AUC: 0.9442 model-Val AUC: 0.9376 Time: 7.66
+ ***************************************************************************************************************
+model2-Epoch: 64 model2-Train Loss: 0.0845 model2-Val Loss: 0.0827 model2-Train AUC: 0.9486 model2-Val AUC: 0.9500 TIME:7.57
+model-Epoch: 64 model-Train Loss: 0.0931 model-Val Loss: 0.0995 model-Acc: 0.8642 model-Pre: 0.8636 model-Recall: 0.8644 model-F1: 0.8640 model-Train AUC: 0.9444 model-Val AUC: 0.9378 Time: 7.75
+ ***************************************************************************************************************
+model2-Epoch: 65 model2-Train Loss: 0.0841 model2-Val Loss: 0.0830 model2-Train AUC: 0.9485 model2-Val AUC: 0.9493 TIME:7.63
+model-Epoch: 65 model-Train Loss: 0.0927 model-Val Loss: 0.0994 model-Acc: 0.8633 model-Pre: 0.8640 model-Recall: 0.8616 model-F1: 0.8628 model-Train AUC: 0.9446 model-Val AUC: 0.9379 Time: 7.80
+ ***************************************************************************************************************
+model2-Epoch: 66 model2-Train Loss: 0.0841 model2-Val Loss: 0.0830 model2-Train AUC: 0.9488 model2-Val AUC: 0.9498 TIME:7.50
+model-Epoch: 66 model-Train Loss: 0.0925 model-Val Loss: 0.0995 model-Acc: 0.8628 model-Pre: 0.8722 model-Recall: 0.8496 model-F1: 0.8607 model-Train AUC: 0.9447 model-Val AUC: 0.9380 Time: 7.68
+ ***************************************************************************************************************
+model2-Epoch: 67 model2-Train Loss: 0.0838 model2-Val Loss: 0.0835 model2-Train AUC: 0.9489 model2-Val AUC: 0.9499 TIME:7.55
+model-Epoch: 67 model-Train Loss: 0.1120 model-Val Loss: 0.1130 model-Acc: 0.8389 model-Pre: 0.9060 model-Recall: 0.7555 model-F1: 0.8239 model-Train AUC: 0.9437 model-Val AUC: 0.9382 Time: 7.73
+ ***************************************************************************************************************
+model2-Epoch: 68 model2-Train Loss: 0.0836 model2-Val Loss: 0.0818 model2-Train AUC: 0.9490 model2-Val AUC: 0.9514 TIME:7.50
+model-Epoch: 68 model-Train Loss: 0.0963 model-Val Loss: 0.1022 model-Acc: 0.8610 model-Pre: 0.8377 model-Recall: 0.8948 model-F1: 0.8653 model-Train AUC: 0.9442 model-Val AUC: 0.9371 Time: 7.67
+ ***************************************************************************************************************
+model2-Epoch: 69 model2-Train Loss: 0.0834 model2-Val Loss: 0.0828 model2-Train AUC: 0.9494 model2-Val AUC: 0.9502 TIME:7.54
+model-Epoch: 69 model-Train Loss: 0.0940 model-Val Loss: 0.0998 model-Acc: 0.8642 model-Pre: 0.8725 model-Recall: 0.8524 model-F1: 0.8623 model-Train AUC: 0.9446 model-Val AUC: 0.9377 Time: 7.72
+ ***************************************************************************************************************
+model2-Epoch: 70 model2-Train Loss: 0.0834 model2-Val Loss: 0.0827 model2-Train AUC: 0.9494 model2-Val AUC: 0.9502 TIME:7.56
+model-Epoch: 70 model-Train Loss: 0.0925 model-Val Loss: 0.1006 model-Acc: 0.8610 model-Pre: 0.8811 model-Recall: 0.8339 model-F1: 0.8569 model-Train AUC: 0.9447 model-Val AUC: 0.9377 Time: 7.74
+ ***************************************************************************************************************
+Fold: 5 model-Test Acc: 0.8610 model-Test Pre: 0.8811 model-Test Recall: 0.8339 model-Test F1: 0.8569 model-Test AUC: 0.9377
+
+Fold: 5 model2-Test Acc: 0.8890 model2-Test Pre: 0.9016 model2-Test Recall: 0.8774 model2-Test F1: 0.8893 model2-Test AUC: 0.9535
+
+####### Training Finished !#######
+model1-AUC mean: 0.9417, variance: 0.0039 
+ model1-Accuracy mean: 0.8665, variance: 0.0061 
+ model1-Precision mean: 0.8850 , variance: 0.0041
+ model1-Recall mean: 0.8425 , variance: 0.0132
+ model1-F1-score mean: 0.8632, variance: 0.0070 
+ ----------------------------------------------------------------------------------------------------
+model2-AUC mean: 0.9513 
+ model2-Accuracy mean: 0.8896 
+ model2-Precision mean: 0.8833 
+ model2-Recall mean: 0.8985 
+ model2-F1-score mean: 0.8907 
