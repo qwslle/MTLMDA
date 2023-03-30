@@ -32,7 +32,7 @@ sub-network to assist the sub-network of miRNA-disease. MTLMDA obtained higher p
 
 '--dropout', type=float, default=0.3,Dropout rate (1 - keep probability).
 
-# File explanation
+# File explanation()
 data：The data file contains the miRNA-disease combination in the HMDD V2.0 dataset and the disease-gene associations we mined from the miRNA-disease network.
 
 data1：The data1 file contains the miRNA-disease combination in the HMDD V3.2 dataset and the disease-gene associations we mined from the miRNA-disease network.
