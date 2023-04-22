@@ -121,7 +121,8 @@ class Encoder2(nn.Module):  ######222222222
         self.disease_nodes = G.filter_nodes(lambda nodes: nodes.data['type'] == 1)
         self.genes_nodes = G.filter_nodes(lambda nodes: nodes.data['type'] == 2)
 
-        self.disease_emb = DiseaseEmbedding2(embedding_size, dropout)
+        # self.disease_emb = DiseaseEmbedding2(G,embedding_size, dropout)
+        self.disease_emb = DiseaseEmbedding(G, embedding_size, dropout)
         self.genes_emb = genesEmbedding(embedding_size, dropout)
         ######################HMDDV2.0
         self.miRNA_dis = torch.tensor(np.array(pd.read_csv('data' + '/R-D.csv', header=None)), dtype=torch.float)
@@ -201,25 +202,15 @@ class genesEmbedding(nn.Module):
             # ndata['g_features']=0.9*ndata['g_features']+0.1*crossfeatures
             rep_genes = self.proj_genes(ndata['g_features'])   ###ndata['g_features']=4395*4395
             rep_genes=0.9*rep_genes+0.1*crossfeatures
-        return rep_genes
-class DiseaseEmbedding2(nn.Module):
-    def __init__(self, embedding_size, dropout):
-        super(DiseaseEmbedding2, self).__init__()
-        seq = nn.Sequential(
-            nn.Linear(383, embedding_size),
-            nn.Dropout(dropout)
-        )
-        self.proj_disease = seq
 
-    def forward(self, ndata,crossfeatures):
-        with torch.no_grad():
-            rep_dis2 = self.proj_disease(ndata['d_features'])
-            rep_dis2=0.9*rep_dis2+0.1*crossfeatures
-        return rep_dis2
+
+        return rep_genes
 
 class DiseaseEmbedding(nn.Module):
     def __init__(self, G,embedding_size, dropout):
         super(DiseaseEmbedding, self).__init__()
+        self.G=G
+
         seq = nn.Sequential(
             nn.Linear(th.sum(G.ndata['type'] == 1), embedding_size),
             nn.Dropout(dropout)
@@ -227,11 +218,15 @@ class DiseaseEmbedding(nn.Module):
         self.proj_disease = seq
 
     def forward(self, ndata,crossfeatures):
-        with torch.no_grad():
-            rep_dis = self.proj_disease(ndata['d_features'])   ### ndata['d_features']=[383, 383]
-            A=MLP(rep_dis,crossfeatures)
-            rep_dis=A()
-
+        if th.sum(self.G.ndata['type'] == 0) !=495:
+            with torch.no_grad():
+                rep_dis = self.proj_disease(ndata['d_features'])
+                rep_dis = 0.9 * rep_dis + 0.1 * crossfeatures
+        else:
+            with torch.no_grad():
+                rep_dis = self.proj_disease(ndata['d_features'])   ### ndata['d_features']=[383, 383]
+                A=MLP(rep_dis,crossfeatures)
+                rep_dis=A()
         return rep_dis
 
 class MirnaEmbedding(nn.Module):
